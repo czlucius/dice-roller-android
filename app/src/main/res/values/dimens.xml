@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+<dimen name="height_margin">150dp</dimen>
+    <dimen name="width_margin">80dp</dimen>
+    <dimen name="height_action_bar">56dp</dimen>
+
+</resources>

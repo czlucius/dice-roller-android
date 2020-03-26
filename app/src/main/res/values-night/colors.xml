@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorFAB">#FF5722</color>
+    <color name="mainBackgroundTint">#121212</color>
+
+    <color name="diceBackground">#282828</color>
+    <color name="diceDot">#e1e1e1</color>
+
+</resources>

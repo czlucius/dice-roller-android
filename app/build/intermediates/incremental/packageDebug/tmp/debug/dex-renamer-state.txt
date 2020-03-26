@@ -1,0 +1,4 @@
+#Thu Mar 26 22:10:44 MYT 2020
+base.0=/home/luciuscheezihan/code/android/MyApp/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
