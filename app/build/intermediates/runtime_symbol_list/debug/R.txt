@@ -26,8 +26,8 @@ int anim design_bottom_sheet_slide_in 0x7f010018
 int anim design_bottom_sheet_slide_out 0x7f010019
 int anim design_snackbar_in 0x7f01001a
 int anim design_snackbar_out 0x7f01001b
-int anim exit_fragment 0x7f01001c
-int anim exit_fragment2 0x7f01001d
+int anim enter 0x7f01001c
+int anim exit 0x7f01001d
 int anim fragment_close_enter 0x7f01001e
 int anim fragment_close_exit 0x7f01001f
 int anim fragment_fade_enter 0x7f010020
@@ -1782,8 +1782,9 @@ int integer mtrl_card_anim_delay_ms 0x7f090010
 int integer mtrl_card_anim_duration_ms 0x7f090011
 int integer mtrl_chip_anim_duration 0x7f090012
 int integer mtrl_tab_indicator_anim_duration_ms 0x7f090013
-int integer show_password_duration 0x7f090014
-int integer status_bar_notification_info_maxnum 0x7f090015
+int integer navAnimTime 0x7f090014
+int integer show_password_duration 0x7f090015
+int integer status_bar_notification_info_maxnum 0x7f090016
 int interpolator btn_checkbox_checked_mtrl_animation_interpolator_0 0x7f0a0000
 int interpolator btn_checkbox_checked_mtrl_animation_interpolator_1 0x7f0a0001
 int interpolator btn_checkbox_unchecked_mtrl_animation_interpolator_0 0x7f0a0002

@@ -9,7 +9,7 @@ android {
 
 
     defaultConfig {
-        applicationId "com.czluciusdev.diceroller"
+        applicationId "com.czluciusdev.dice_roller"
         minSdkVersion 14
         targetSdkVersion 29
 
@@ -25,7 +25,7 @@ android {
     }
 
     dataBinding {
-        enabled true
+        enabled true//
     }
     kotlinOptions {
         jvmTarget = "1.8"

@@ -6,11 +6,11 @@
                 {
                     "source": "/home/luciuscheezihan/code/android/MyApp/app/src/main/res/values-zh/strings.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1,10,11,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1,-1,4,4,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1,451,487,-1,-1",
-                        "endColumns": "-1,-1,-1,-1,-1,-1,35,80,-1,-1",
-                        "endOffsets": "-1,-1,-1,-1,-1,-1,482,563,-1,-1"
+                        "startLines": "3,2,9,8,5,6,10,11,7,4",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "95,55,397,316,166,213,451,487,272,130",
+                        "endColumns": "34,39,53,80,46,58,35,80,43,35",
+                        "endOffsets": "125,90,446,392,208,267,482,563,311,161"
                     },
                     "to": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",

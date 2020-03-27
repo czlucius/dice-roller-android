@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.czluciusdev.diceroller"
+3    package="com.czluciusdev.dice_roller"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
@@ -25,36 +25,37 @@
 17-->/home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:11:9-49
 18        android:supportsRtl="true"
 18-->/home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:12:9-35
-19        android:theme="@style/AppTheme" >
-19-->/home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:13:9-40
-20        <activity
-20-->/home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:14:9-21:20
-21            android:name="com.czluciusdev.diceroller.MainActivity"
-21-->/home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:14:19-47
-22            android:screenOrientation="sensorPortrait" >
-22-->/home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:15:13-55
-23            <intent-filter>
-23-->/home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:16:13-20:29
-24                <action android:name="android.intent.action.MAIN" />
-24-->/home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:17:17-69
-24-->/home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:17:25-66
-25
-26                <category android:name="android.intent.category.LAUNCHER" />
-26-->/home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:18:17-77
-26-->/home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:18:27-74
-27            </intent-filter>
-28        </activity>
-29
-30        <provider
-30-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/luciuscheezihan/.gradle/caches/transforms-2/files-2.1/bd6faf5cf735b8e6802f6b9fb42cdd6d/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
-31            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-31-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/luciuscheezihan/.gradle/caches/transforms-2/files-2.1/bd6faf5cf735b8e6802f6b9fb42cdd6d/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
-32            android:authorities="com.czluciusdev.diceroller.lifecycle-process"
-32-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/luciuscheezihan/.gradle/caches/transforms-2/files-2.1/bd6faf5cf735b8e6802f6b9fb42cdd6d/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
-33            android:exported="false"
-33-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/luciuscheezihan/.gradle/caches/transforms-2/files-2.1/bd6faf5cf735b8e6802f6b9fb42cdd6d/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
-34            android:multiprocess="true" />
-34-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/luciuscheezihan/.gradle/caches/transforms-2/files-2.1/bd6faf5cf735b8e6802f6b9fb42cdd6d/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
-35    </application>
-36
-37</manifest>
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->/home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:13:9-40
+21        <activity
+21-->/home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:14:9-21:20
+22            android:name="com.czluciusdev.dice_roller.MainActivity"
+22-->/home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:14:19-74
+23            android:screenOrientation="sensorPortrait" >
+23-->/home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:15:13-55
+24            <intent-filter>
+24-->/home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:16:13-20:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->/home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:17:17-69
+25-->/home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:17:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->/home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:18:17-77
+27-->/home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:18:27-74
+28            </intent-filter>
+29        </activity>
+30
+31        <provider
+31-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/luciuscheezihan/.gradle/caches/transforms-2/files-2.1/bd6faf5cf735b8e6802f6b9fb42cdd6d/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+32            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+32-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/luciuscheezihan/.gradle/caches/transforms-2/files-2.1/bd6faf5cf735b8e6802f6b9fb42cdd6d/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+33            android:authorities="com.czluciusdev.dice_roller.lifecycle-process"
+33-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/luciuscheezihan/.gradle/caches/transforms-2/files-2.1/bd6faf5cf735b8e6802f6b9fb42cdd6d/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+34            android:exported="false"
+34-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/luciuscheezihan/.gradle/caches/transforms-2/files-2.1/bd6faf5cf735b8e6802f6b9fb42cdd6d/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+35            android:multiprocess="true" />
+35-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/luciuscheezihan/.gradle/caches/transforms-2/files-2.1/bd6faf5cf735b8e6802f6b9fb42cdd6d/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+36    </application>
+37
+38</manifest>

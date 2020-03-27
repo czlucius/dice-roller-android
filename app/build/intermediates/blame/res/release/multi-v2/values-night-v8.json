@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/luciuscheezihan/code/android/MyApp/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "/home/luciuscheezihan/.gradle/caches/transforms-2/files-2.1/da0e3d95084f718de82fea814fe004e1/appcompat-1.1.0/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,12,13,14,15,32",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "386,456,540,624,720,822,924,2880",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "451,535,619,715,817,919,1013,2964"
+                    }
+                },
+                {
+                    "source": "/home/luciuscheezihan/code/android/MyApp/app/src/main/res/values-night/colors.xml",
+                    "from": {
+                        "startLines": "4,5,2,3,8,9,6",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "153,199,55,102,296,345,242",
+                        "endColumns": "45,42,46,50,48,41,52",
+                        "endOffsets": "194,237,97,148,340,382,290"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,101,144,191,242,291,333",
+                        "endColumns": "45,42,46,50,48,41,52",
+                        "endOffsets": "96,139,186,237,286,328,381"
+                    }
+                },
+                {
+                    "source": "/home/luciuscheezihan/.gradle/caches/transforms-2/files-2.1/9b228eb68040a291b4c1c462839941d3/material-1.1.0-rc01/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,143,267,369,471,587,689,803,931,1047,1169,1305,1425,1559,1679,1791,1917,2055,2179,2309,2431,2569,2685",
+                        "endColumns": "87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,137,123,129,121,137,115,119",
+                        "endOffsets": "138,262,364,466,582,684,798,926,1042,1164,1300,1420,1554,1674,1786,1912,2050,2174,2304,2426,2564,2680,2800"
+                    },
+                    "to": {
+                        "startLines": "16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,33,34,35,36,37,38,39",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1018,1106,1230,1332,1434,1550,1652,1766,1894,2010,2132,2268,2388,2522,2642,2754,2969,3107,3231,3361,3483,3621,3737",
+                        "endColumns": "87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,137,123,129,121,137,115,119",
+                        "endOffsets": "1101,1225,1327,1429,1545,1647,1761,1889,2005,2127,2263,2383,2517,2637,2749,2875,3102,3226,3356,3478,3616,3732,3852"
+                    }
+                }
+            ]
+        }
+    ]
+}

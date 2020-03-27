@@ -212,6 +212,10 @@
         "source": "/home/luciuscheezihan/code/android/MyApp/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_round_delete_24.png"
     },
     {
+        "merged": "/home/luciuscheezihan/code/android/MyApp/app/build/intermediates/res/merged/debug/anim_exit.xml.flat",
+        "source": "/home/luciuscheezihan/code/android/MyApp/app/src/main/res/anim/exit.xml"
+    },
+    {
         "merged": "/home/luciuscheezihan/code/android/MyApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_round_build_24.png.flat",
         "source": "/home/luciuscheezihan/code/android/MyApp/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_round_build_24.png"
     },
@@ -368,16 +372,16 @@
         "source": "/home/luciuscheezihan/code/android/MyApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
     },
     {
+        "merged": "/home/luciuscheezihan/code/android/MyApp/app/build/intermediates/res/merged/debug/anim_enter.xml.flat",
+        "source": "/home/luciuscheezihan/code/android/MyApp/app/src/main/res/anim/enter.xml"
+    },
+    {
         "merged": "/home/luciuscheezihan/code/android/MyApp/app/build/intermediates/res/merged/debug/menu_menu_main.xml.flat",
         "source": "/home/luciuscheezihan/code/android/MyApp/app/src/main/res/menu/menu_main.xml"
     },
     {
         "merged": "/home/luciuscheezihan/code/android/MyApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_round_flip_camera_android_24.xml.flat",
         "source": "/home/luciuscheezihan/code/android/MyApp/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_round_flip_camera_android_24.xml"
-    },
-    {
-        "merged": "/home/luciuscheezihan/code/android/MyApp/app/build/intermediates/res/merged/debug/anim_exit_fragment2.xml.flat",
-        "source": "/home/luciuscheezihan/code/android/MyApp/app/src/main/res/anim/exit_fragment2.xml"
     },
     {
         "merged": "/home/luciuscheezihan/code/android/MyApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_dice4.png.flat",
@@ -398,10 +402,6 @@
     {
         "merged": "/home/luciuscheezihan/code/android/MyApp/app/build/intermediates/res/merged/debug/drawable_ic_app.png.flat",
         "source": "/home/luciuscheezihan/code/android/MyApp/app/src/main/res/drawable/ic_app.png"
-    },
-    {
-        "merged": "/home/luciuscheezihan/code/android/MyApp/app/build/intermediates/res/merged/debug/anim_exit_fragment.xml.flat",
-        "source": "/home/luciuscheezihan/code/android/MyApp/app/src/main/res/anim/exit_fragment.xml"
     },
     {
         "merged": "/home/luciuscheezihan/code/android/MyApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_baseline_remove.png.flat",

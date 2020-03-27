@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/luciuscheezihan/code/android/MyApp/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-night-v23/values-night-v23.xml",
+            "map": [
+                {
+                    "source": "/home/luciuscheezihan/code/android/MyApp/app/src/main/res/values-night-v23/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "197"
+                    }
+                }
+            ]
+        }
+    ]
+}

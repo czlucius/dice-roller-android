@@ -5,7 +5,7 @@
     <data>
         <variable
             name="vm"
-            type="com.czluciusdev.diceroller.DiceViewModel" />
+            type="com.czluciusdev.dice_roller.DiceViewModel" />
     </data>
 <androidx.coordinatorlayout.widget.CoordinatorLayout
     android:layout_width="match_parent"

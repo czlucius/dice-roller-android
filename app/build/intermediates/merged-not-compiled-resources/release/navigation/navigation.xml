@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/diceFragment">
+
+    <fragment
+        android:id="@+id/diceFragment"
+        android:name="com.czluciusdev.dice_roller.DiceFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/dice_fragment" >
+        <action
+            android:id="@+id/infoNav"
+            app:destination="@id/aboutFragment"
+            app:exitAnim="@anim/exit_fragment"
+            app:popExitAnim="@anim/exit_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.czluciusdev.dice_roller.AboutFragment"
+        android:label="@string/info"
+        tools:layout="@layout/fragment_about" >
+        <action
+            android:id="@+id/action_aboutFragment_to_diceFragment"
+            app:destination="@id/diceFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
