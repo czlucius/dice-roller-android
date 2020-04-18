@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:contentDescription="@string/dice_roller_info"
-        android:src="@drawable/ic_app_logo"
+        app:srcCompat="@drawable/ic_app_logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
@@ -39,6 +39,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_margin="16dp"
             android:gravity="center"
             android:text="@string/dice_roller_info_desc" />
@@ -49,7 +50,28 @@
             android:layout_gravity="center"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
+            android:gravity="center"
             android:text="@string/info_credits" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="@string/opensource_text" />
+
+        <TextView
+            android:id="@+id/openSourceLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:autoLink="web"
+            android:text="@string/opensource_link" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,7 +3,7 @@
 # Referenced at /home/luciuscheezihan/code/android/MyApp/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:29
 -keep class androidx.lifecycle.ProcessLifecycleOwnerInitializer { <init>(); }
 # Referenced at /home/luciuscheezihan/code/android/MyApp/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:19
--keep class com.czluciusdev.dice_roller.MainActivity { <init>(); }
+-keep class com.czluciusdev.diceroller.MainActivity { <init>(); }
 # Referenced at /home/luciuscheezihan/.gradle/caches/transforms-2/files-2.1/da0e3d95084f718de82fea814fe004e1/appcompat-1.1.0/res/layout/abc_alert_dialog_button_bar_material.xml:43
 # Referenced at /home/luciuscheezihan/.gradle/caches/transforms-2/files-2.1/da0e3d95084f718de82fea814fe004e1/appcompat-1.1.0/res/layout/abc_alert_dialog_material.xml:52
 # Referenced at /home/luciuscheezihan/.gradle/caches/transforms-2/files-2.1/da0e3d95084f718de82fea814fe004e1/appcompat-1.1.0/res/layout/abc_alert_dialog_title_material.xml:57
@@ -93,11 +93,11 @@
 # Referenced at /home/luciuscheezihan/.gradle/caches/transforms-2/files-2.1/9b228eb68040a291b4c1c462839941d3/material-1.1.0-rc01/res/layout/mtrl_calendar_months.xml:18
 -keep class androidx.recyclerview.widget.RecyclerView { <init>(...); }
 
-# Referenced at /home/luciuscheezihan/code/android/MyApp/app/src/main/res/navigation/navigation.xml:19
--keep class com.czluciusdev.dice_roller.AboutFragment { <init>(...); }
+# Referenced at /home/luciuscheezihan/code/android/MyApp/app/src/main/res/navigation/navigation.xml:17
+-keep class com.czluciusdev.diceroller.AboutFragment { <init>(...); }
 
 # Referenced at /home/luciuscheezihan/code/android/MyApp/app/src/main/res/navigation/navigation.xml:8
--keep class com.czluciusdev.dice_roller.DiceFragment { <init>(...); }
+-keep class com.czluciusdev.diceroller.DiceFragment { <init>(...); }
 
 # Referenced at /home/luciuscheezihan/.gradle/caches/transforms-2/files-2.1/9b228eb68040a291b4c1c462839941d3/material-1.1.0-rc01/res/layout/test_toolbar.xml:16
 # Referenced at /home/luciuscheezihan/.gradle/caches/transforms-2/files-2.1/9b228eb68040a291b4c1c462839941d3/material-1.1.0-rc01/res/layout/test_toolbar_custom_background.xml:16

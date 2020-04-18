@@ -9,10 +9,10 @@ android {
 
 
     defaultConfig {
-        applicationId "com.czluciusdev.dice_roller"
+        applicationId "com.czluciusdev.diceroller"
         minSdkVersion 14
         targetSdkVersion 29
-
+        vectorDrawables.useSupportLibrary = true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 

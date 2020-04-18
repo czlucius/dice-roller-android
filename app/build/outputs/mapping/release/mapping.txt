@@ -2,7 +2,7 @@
 # compiler_version: 1.7.13-dev
 # min_api: 14
 # compiler_hash: f016f7d670c7afe027d48b4c053a455bb81c0733
-# pg_map_id: e4f8a45
+# pg_map_id: a33118b
 # common_typos_disable
 android.support.v4.media.MediaBrowserCompat$CustomActionResultReceiver -> android.support.v4.media.MediaBrowserCompat$CustomActionResultReceiver:
     void onReceiveResult(int,android.os.Bundle) -> a
@@ -473,7 +473,7 @@ android.support.v4.media.MediaDescriptionCompatApi21$Builder -> a.a.a.a.a:
     135:135:android.content.res.ColorStateList com.google.android.material.resources.MaterialResources.getColorStateList(android.content.Context,androidx.appcompat.widget.TintTypedArray,int):0:0 -> a
     android.graphics.drawable.Drawable[] androidx.core.widget.TextViewCompat.getCompoundDrawablesRelative(android.widget.TextView) -> a
     java.util.Calendar com.google.android.material.datepicker.UtcDates.getDayCopy(java.util.Calendar) -> a
-    float com.czluciusdev.dice_roller.UtilKt.getDimensResource(android.content.Context,int) -> a
+    float com.czluciusdev.diceroller.UtilKt.getDimensResource(android.content.Context,int) -> a
     136:136:void kotlin.jvm.internal.Intrinsics.checkParameterIsNotNull(java.lang.Object,java.lang.String):0:0 -> a
     136:136:java.lang.Class kotlin.jvm.JvmClassMappingKt.getJavaObjectType(kotlin.reflect.KClass):0 -> a
     int androidx.core.view.MarginLayoutParamsCompat.getMarginEnd(android.view.ViewGroup$MarginLayoutParams) -> a
@@ -739,7 +739,7 @@ android.support.v4.media.MediaDescriptionCompatApi21$Builder -> a.a.a.a.a:
     void androidx.core.view.LayoutInflaterCompat.setFactory2(android.view.LayoutInflater,android.view.LayoutInflater$Factory2) -> b
     void androidx.core.widget.TextViewCompat.setLastBaselineToBottomHeight(android.widget.TextView,int) -> b
     void androidx.core.graphics.drawable.DrawableCompat.setTint(android.graphics.drawable.Drawable,int) -> b
-    int com.czluciusdev.dice_roller.UtilKt.getDiceFromNum(int) -> c
+    int com.czluciusdev.diceroller.UtilKt.getDiceFromNum(int) -> c
     java.util.Calendar com.google.android.material.datepicker.UtcDates.getUtcCalendar() -> c
     boolean androidx.core.graphics.drawable.DrawableCompat.isAutoMirrored(android.graphics.drawable.Drawable) -> c
     int androidx.customview.widget.FocusStrategy.minorAxisDistance(int,android.graphics.Rect,android.graphics.Rect) -> c
@@ -11519,94 +11519,94 @@ androidx.databinding.ViewDataBinding -> androidx.databinding.ViewDataBinding:
     3:3:void <init>(java.lang.Object,android.view.View,int):0 -> <init>
     1:1:void handleFieldChange(int,java.lang.Object,int):0:0 -> a
     1:1:void access$800(androidx.databinding.ViewDataBinding,int,java.lang.Object,int):0 -> a
-    2:2:boolean com.czluciusdev.dice_roller.databinding.DiceFragmentBindingImpl.onFieldChange(int,java.lang.Object,int):0:0 -> a
+    2:2:boolean com.czluciusdev.diceroller.databinding.DiceFragmentBindingImpl.onFieldChange(int,java.lang.Object,int):0:0 -> a
     2:2:void handleFieldChange(int,java.lang.Object,int):0 -> a
     2:2:void access$800(androidx.databinding.ViewDataBinding,int,java.lang.Object,int):0 -> a
-    3:3:boolean com.czluciusdev.dice_roller.databinding.DiceFragmentBindingImpl.onChangeVmDiceNumberString(androidx.lifecycle.LiveData,int):0:0 -> a
-    3:3:boolean com.czluciusdev.dice_roller.databinding.DiceFragmentBindingImpl.onFieldChange(int,java.lang.Object,int):0 -> a
+    3:3:boolean com.czluciusdev.diceroller.databinding.DiceFragmentBindingImpl.onChangeVmDiceNumberString(androidx.lifecycle.LiveData,int):0:0 -> a
+    3:3:boolean com.czluciusdev.diceroller.databinding.DiceFragmentBindingImpl.onFieldChange(int,java.lang.Object,int):0 -> a
     3:3:void handleFieldChange(int,java.lang.Object,int):0 -> a
     3:3:void access$800(androidx.databinding.ViewDataBinding,int,java.lang.Object,int):0 -> a
     4:4:void handleFieldChange(int,java.lang.Object,int):0:0 -> a
     4:4:void access$800(androidx.databinding.ViewDataBinding,int,java.lang.Object,int):0 -> a
     5:5:void executeBindingsInternal():0:0 -> a
     5:5:void executePendingBindings():0 -> a
-    6:6:boolean com.czluciusdev.dice_roller.databinding.DiceFragmentBindingImpl.hasPendingBindings():0:0 -> a
+    6:6:boolean com.czluciusdev.diceroller.databinding.DiceFragmentBindingImpl.hasPendingBindings():0:0 -> a
     6:6:void executeBindingsInternal():0 -> a
     6:6:void executePendingBindings():0 -> a
     7:7:void executeBindingsInternal():0:0 -> a
     7:7:void executePendingBindings():0 -> a
-    8:8:void com.czluciusdev.dice_roller.databinding.DiceFragmentBindingImpl.executeBindings():0:0 -> a
+    8:8:void com.czluciusdev.diceroller.databinding.DiceFragmentBindingImpl.executeBindings():0:0 -> a
     8:8:void executeBindingsInternal():0 -> a
     8:8:void executePendingBindings():0 -> a
-    9:9:androidx.lifecycle.LiveData com.czluciusdev.dice_roller.DiceViewModel.getDiceNumberString():0:0 -> a
-    9:9:void com.czluciusdev.dice_roller.databinding.DiceFragmentBindingImpl.executeBindings():0 -> a
+    9:9:androidx.lifecycle.LiveData com.czluciusdev.diceroller.DiceViewModel.getDiceNumberString():0:0 -> a
+    9:9:void com.czluciusdev.diceroller.databinding.DiceFragmentBindingImpl.executeBindings():0 -> a
     9:9:void executeBindingsInternal():0 -> a
     9:9:void executePendingBindings():0 -> a
     10:10:boolean updateLiveDataRegistration(int,androidx.lifecycle.LiveData):0:0 -> a
-    10:10:void com.czluciusdev.dice_roller.databinding.DiceFragmentBindingImpl.executeBindings():0 -> a
+    10:10:void com.czluciusdev.diceroller.databinding.DiceFragmentBindingImpl.executeBindings():0 -> a
     10:10:void executeBindingsInternal():0 -> a
     10:10:void executePendingBindings():0 -> a
     11:11:boolean unregisterFrom(int):0:0 -> a
     11:11:boolean updateRegistration(int,java.lang.Object,androidx.databinding.ViewDataBinding$CreateWeakListener):0 -> a
     11:11:boolean updateLiveDataRegistration(int,androidx.lifecycle.LiveData):0 -> a
-    11:11:void com.czluciusdev.dice_roller.databinding.DiceFragmentBindingImpl.executeBindings():0 -> a
+    11:11:void com.czluciusdev.diceroller.databinding.DiceFragmentBindingImpl.executeBindings():0 -> a
     11:11:void executeBindingsInternal():0 -> a
     11:11:void executePendingBindings():0 -> a
     12:12:boolean updateRegistration(int,java.lang.Object,androidx.databinding.ViewDataBinding$CreateWeakListener):0:0 -> a
     12:12:boolean updateLiveDataRegistration(int,androidx.lifecycle.LiveData):0 -> a
-    12:12:void com.czluciusdev.dice_roller.databinding.DiceFragmentBindingImpl.executeBindings():0 -> a
+    12:12:void com.czluciusdev.diceroller.databinding.DiceFragmentBindingImpl.executeBindings():0 -> a
     12:12:void executeBindingsInternal():0 -> a
     12:12:void executePendingBindings():0 -> a
     13:13:java.lang.Object androidx.databinding.ViewDataBinding$WeakListener.getTarget():0:0 -> a
     13:13:boolean updateRegistration(int,java.lang.Object,androidx.databinding.ViewDataBinding$CreateWeakListener):0 -> a
     13:13:boolean updateLiveDataRegistration(int,androidx.lifecycle.LiveData):0 -> a
-    13:13:void com.czluciusdev.dice_roller.databinding.DiceFragmentBindingImpl.executeBindings():0 -> a
+    13:13:void com.czluciusdev.diceroller.databinding.DiceFragmentBindingImpl.executeBindings():0 -> a
     13:13:void executeBindingsInternal():0 -> a
     13:13:void executePendingBindings():0 -> a
     14:14:boolean unregisterFrom(int):0:0 -> a
     14:14:boolean updateRegistration(int,java.lang.Object,androidx.databinding.ViewDataBinding$CreateWeakListener):0 -> a
     14:14:boolean updateLiveDataRegistration(int,androidx.lifecycle.LiveData):0 -> a
-    14:14:void com.czluciusdev.dice_roller.databinding.DiceFragmentBindingImpl.executeBindings():0 -> a
+    14:14:void com.czluciusdev.diceroller.databinding.DiceFragmentBindingImpl.executeBindings():0 -> a
     14:14:void executeBindingsInternal():0 -> a
     14:14:void executePendingBindings():0 -> a
     15:15:boolean updateRegistration(int,java.lang.Object,androidx.databinding.ViewDataBinding$CreateWeakListener):0:0 -> a
     15:15:boolean updateLiveDataRegistration(int,androidx.lifecycle.LiveData):0 -> a
-    15:15:void com.czluciusdev.dice_roller.databinding.DiceFragmentBindingImpl.executeBindings():0 -> a
+    15:15:void com.czluciusdev.diceroller.databinding.DiceFragmentBindingImpl.executeBindings():0 -> a
     15:15:void executeBindingsInternal():0 -> a
     15:15:void executePendingBindings():0 -> a
     16:16:boolean updateLiveDataRegistration(int,androidx.lifecycle.LiveData):0:0 -> a
-    16:16:void com.czluciusdev.dice_roller.databinding.DiceFragmentBindingImpl.executeBindings():0 -> a
+    16:16:void com.czluciusdev.diceroller.databinding.DiceFragmentBindingImpl.executeBindings():0 -> a
     16:16:void executeBindingsInternal():0 -> a
     16:16:void executePendingBindings():0 -> a
-    17:17:void com.czluciusdev.dice_roller.databinding.DiceFragmentBindingImpl.executeBindings():0:0 -> a
+    17:17:void com.czluciusdev.diceroller.databinding.DiceFragmentBindingImpl.executeBindings():0:0 -> a
     17:17:void executeBindingsInternal():0 -> a
     17:17:void executePendingBindings():0 -> a
     18:18:boolean updateLiveDataRegistration(int,androidx.lifecycle.LiveData):0:0 -> a
-    18:18:void com.czluciusdev.dice_roller.databinding.DiceFragmentBindingImpl.executeBindings():0 -> a
+    18:18:void com.czluciusdev.diceroller.databinding.DiceFragmentBindingImpl.executeBindings():0 -> a
     18:18:void executeBindingsInternal():0 -> a
     18:18:void executePendingBindings():0 -> a
-    19:19:void com.czluciusdev.dice_roller.databinding.DiceFragmentBindingImpl.executeBindings():0:0 -> a
+    19:19:void com.czluciusdev.diceroller.databinding.DiceFragmentBindingImpl.executeBindings():0:0 -> a
     19:19:void executeBindingsInternal():0 -> a
     19:19:void executePendingBindings():0 -> a
     20:20:void androidx.databinding.adapters.TextViewBindingAdapter.setText(android.widget.TextView,java.lang.CharSequence):0:0 -> a
-    20:20:void com.czluciusdev.dice_roller.databinding.DiceFragmentBindingImpl.executeBindings():0 -> a
+    20:20:void com.czluciusdev.diceroller.databinding.DiceFragmentBindingImpl.executeBindings():0 -> a
     20:20:void executeBindingsInternal():0 -> a
     20:20:void executePendingBindings():0 -> a
     21:21:boolean androidx.databinding.adapters.TextViewBindingAdapter.haveContentsChanged(java.lang.CharSequence,java.lang.CharSequence):0:0 -> a
     21:21:void androidx.databinding.adapters.TextViewBindingAdapter.setText(android.widget.TextView,java.lang.CharSequence):0 -> a
-    21:21:void com.czluciusdev.dice_roller.databinding.DiceFragmentBindingImpl.executeBindings():0 -> a
+    21:21:void com.czluciusdev.diceroller.databinding.DiceFragmentBindingImpl.executeBindings():0 -> a
     21:21:void executeBindingsInternal():0 -> a
     21:21:void executePendingBindings():0 -> a
     22:22:void androidx.databinding.adapters.TextViewBindingAdapter.setText(android.widget.TextView,java.lang.CharSequence):0:0 -> a
-    22:22:void com.czluciusdev.dice_roller.databinding.DiceFragmentBindingImpl.executeBindings():0 -> a
+    22:22:void com.czluciusdev.diceroller.databinding.DiceFragmentBindingImpl.executeBindings():0 -> a
     22:22:void executeBindingsInternal():0 -> a
     22:22:void executePendingBindings():0 -> a
     23:23:void executeBindingsInternal():0:0 -> a
     23:23:void executePendingBindings():0 -> a
-    24:24:void com.czluciusdev.dice_roller.databinding.DiceFragmentBindingImpl.executeBindings():0:0 -> a
+    24:24:void com.czluciusdev.diceroller.databinding.DiceFragmentBindingImpl.executeBindings():0:0 -> a
     24:24:void executeBindingsInternal():0 -> a
     24:24:void executePendingBindings():0 -> a
-    25:25:boolean com.czluciusdev.dice_roller.databinding.DiceFragmentBindingImpl.hasPendingBindings():0:0 -> a
+    25:25:boolean com.czluciusdev.diceroller.databinding.DiceFragmentBindingImpl.hasPendingBindings():0:0 -> a
     25:25:void executeBindingsInternal():0 -> a
     25:25:void executePendingBindings():0 -> a
     boolean isNumeric(java.lang.String,int) -> a
@@ -20054,90 +20054,87 @@ com.android.tools.r8.GeneratedOutlineSupport -> c.a.a.a.a:
     java.lang.String outline4(org.xmlpull.v1.XmlPullParser,java.lang.StringBuilder,java.lang.String) -> a
     java.lang.StringBuilder outline5(java.lang.String) -> a
     void outline6(java.lang.StringBuilder,androidx.fragment.app.Fragment,java.lang.String) -> a
-com.czluciusdev.dice_roller.AboutFragment -> com.czluciusdev.dice_roller.AboutFragment:
+com.czluciusdev.diceroller.AboutFragment -> com.czluciusdev.diceroller.AboutFragment:
     1:1:void kotlin.jvm.internal.Intrinsics.checkParameterIsNotNull(java.lang.Object,java.lang.String):0:0 -> a
     1:1:android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle):0 -> a
-    1:1:android.os.Bundle androidx.fragment.app.Fragment.getArguments():0:0 -> b
-    1:1:void onCreate(android.os.Bundle):0 -> b
-    2:2:void onCreate(android.os.Bundle):0:0 -> b
     1:1:void androidx.fragment.app.Fragment.onDestroyView():0:0 -> u
     1:1:void onDestroyView():0 -> u
-com.czluciusdev.dice_roller.DataBinderMapperImpl -> c.b.a.a:
+com.czluciusdev.diceroller.DataBinderMapperImpl -> c.b.a.a:
     android.util.SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP -> a
     java.util.List collectDependencies() -> a
     androidx.databinding.ViewDataBinding getDataBinder(androidx.databinding.DataBindingComponent,android.view.View,int) -> a
-com.czluciusdev.dice_roller.DiceFragment -> com.czluciusdev.dice_roller.DiceFragment:
+com.czluciusdev.diceroller.DiceFragment -> com.czluciusdev.diceroller.DiceFragment:
     java.util.HashMap _$_findViewCache -> g0
+    com.czluciusdev.diceroller.databinding.DiceFragmentBinding binding -> a0
     java.lang.Integer screenWidth -> b0
     java.lang.Integer screenHeight -> c0
     android.view.View$OnDragListener diceOnDragListener -> f0
     kotlin.Lazy viewModel$delegate -> Z
-    com.czluciusdev.dice_roller.databinding.DiceFragmentBinding binding -> a0
     android.view.OrientationEventListener orientationEventListener -> d0
     kotlin.reflect.KProperty[] $$delegatedProperties -> h0
     android.view.View$OnLongClickListener diceLongClickListener -> e0
     1:1:kotlin.Lazy androidx.fragment.app.FragmentViewModelLazyKt.createViewModelLazy(androidx.fragment.app.Fragment,kotlin.reflect.KClass,kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function0):0:0 -> <init>
     1:1:void <init>():0 -> <init>
     2:2:void <init>():0:0 -> <init>
-    com.czluciusdev.dice_roller.DiceViewModel getViewModel() -> C
+    com.czluciusdev.diceroller.DiceViewModel getViewModel() -> C
     1:1:void addDice():0:0 -> a
-    1:1:void access$addDice(com.czluciusdev.dice_roller.DiceFragment):0 -> a
-    2:2:void renderDice(float,float,com.czluciusdev.dice_roller.DiceImage,int):0:0 -> a
+    1:1:void access$addDice(com.czluciusdev.diceroller.DiceFragment):0 -> a
+    2:2:void renderDice(float,float,com.czluciusdev.diceroller.DiceImage,int):0:0 -> a
     2:2:void addDice():0 -> a
-    2:2:void access$addDice(com.czluciusdev.dice_roller.DiceFragment):0 -> a
-    3:3:int com.czluciusdev.dice_roller.UtilKt.calcX(android.widget.RelativeLayout,android.content.Context):0:0 -> a
-    3:3:void renderDice(float,float,com.czluciusdev.dice_roller.DiceImage,int):0 -> a
+    2:2:void access$addDice(com.czluciusdev.diceroller.DiceFragment):0 -> a
+    3:3:int com.czluciusdev.diceroller.UtilKt.calcX(android.widget.RelativeLayout,android.content.Context):0:0 -> a
+    3:3:void renderDice(float,float,com.czluciusdev.diceroller.DiceImage,int):0 -> a
     3:3:void addDice():0 -> a
-    3:3:void access$addDice(com.czluciusdev.dice_roller.DiceFragment):0 -> a
-    4:4:void renderDice(float,float,com.czluciusdev.dice_roller.DiceImage,int):0:0 -> a
+    3:3:void access$addDice(com.czluciusdev.diceroller.DiceFragment):0 -> a
+    4:4:void renderDice(float,float,com.czluciusdev.diceroller.DiceImage,int):0:0 -> a
     4:4:void addDice():0 -> a
-    4:4:void access$addDice(com.czluciusdev.dice_roller.DiceFragment):0 -> a
-    5:5:int com.czluciusdev.dice_roller.UtilKt.calcY(android.widget.RelativeLayout,android.content.Context):0:0 -> a
-    5:5:void renderDice(float,float,com.czluciusdev.dice_roller.DiceImage,int):0 -> a
+    4:4:void access$addDice(com.czluciusdev.diceroller.DiceFragment):0 -> a
+    5:5:int com.czluciusdev.diceroller.UtilKt.calcY(android.widget.RelativeLayout,android.content.Context):0:0 -> a
+    5:5:void renderDice(float,float,com.czluciusdev.diceroller.DiceImage,int):0 -> a
     5:5:void addDice():0 -> a
-    5:5:void access$addDice(com.czluciusdev.dice_roller.DiceFragment):0 -> a
-    6:6:void renderDice(float,float,com.czluciusdev.dice_roller.DiceImage,int):0:0 -> a
+    5:5:void access$addDice(com.czluciusdev.diceroller.DiceFragment):0 -> a
+    6:6:void renderDice(float,float,com.czluciusdev.diceroller.DiceImage,int):0:0 -> a
     6:6:void addDice():0 -> a
-    6:6:void access$addDice(com.czluciusdev.dice_roller.DiceFragment):0 -> a
+    6:6:void access$addDice(com.czluciusdev.diceroller.DiceFragment):0 -> a
     7:7:void addDice():0:0 -> a
-    7:7:void access$addDice(com.czluciusdev.dice_roller.DiceFragment):0 -> a
-    8:8:androidx.lifecycle.MutableLiveData com.czluciusdev.dice_roller.DiceViewModel.getTotalDiceNumber():0:0 -> a
+    7:7:void access$addDice(com.czluciusdev.diceroller.DiceFragment):0 -> a
+    8:8:androidx.lifecycle.MutableLiveData com.czluciusdev.diceroller.DiceViewModel.getTotalDiceNumber():0:0 -> a
     8:8:void addDice():0 -> a
-    8:8:void access$addDice(com.czluciusdev.dice_roller.DiceFragment):0 -> a
+    8:8:void access$addDice(com.czluciusdev.diceroller.DiceFragment):0 -> a
     9:9:void addDice():0:0 -> a
-    9:9:void access$addDice(com.czluciusdev.dice_roller.DiceFragment):0 -> a
-    10:10:androidx.lifecycle.MutableLiveData com.czluciusdev.dice_roller.DiceViewModel.getTotalDiceNumber():0:0 -> a
+    9:9:void access$addDice(com.czluciusdev.diceroller.DiceFragment):0 -> a
+    10:10:androidx.lifecycle.MutableLiveData com.czluciusdev.diceroller.DiceViewModel.getTotalDiceNumber():0:0 -> a
     10:10:void addDice():0 -> a
-    10:10:void access$addDice(com.czluciusdev.dice_roller.DiceFragment):0 -> a
+    10:10:void access$addDice(com.czluciusdev.diceroller.DiceFragment):0 -> a
     11:11:void addDice():0:0 -> a
-    11:11:void access$addDice(com.czluciusdev.dice_roller.DiceFragment):0 -> a
-    12:12:java.util.Collection com.czluciusdev.dice_roller.DiceViewModel.getDiceCollection():0:0 -> a
+    11:11:void access$addDice(com.czluciusdev.diceroller.DiceFragment):0 -> a
+    12:12:java.util.Collection com.czluciusdev.diceroller.DiceViewModel.getDiceCollection():0:0 -> a
     12:12:void addDice():0 -> a
-    12:12:void access$addDice(com.czluciusdev.dice_roller.DiceFragment):0 -> a
+    12:12:void access$addDice(com.czluciusdev.diceroller.DiceFragment):0 -> a
     13:13:void addDice():0:0 -> a
-    13:13:void access$addDice(com.czluciusdev.dice_roller.DiceFragment):0 -> a
-    14:14:void renderDice(float,float,com.czluciusdev.dice_roller.DiceImage,int):0:0 -> a
+    13:13:void access$addDice(com.czluciusdev.diceroller.DiceFragment):0 -> a
+    14:14:void renderDice(float,float,com.czluciusdev.diceroller.DiceImage,int):0:0 -> a
     14:14:void addDice():0 -> a
-    14:14:void access$addDice(com.czluciusdev.dice_roller.DiceFragment):0 -> a
+    14:14:void access$addDice(com.czluciusdev.diceroller.DiceFragment):0 -> a
     15:15:void addDice():0:0 -> a
-    15:15:void access$addDice(com.czluciusdev.dice_roller.DiceFragment):0 -> a
-    16:16:void removeDice(com.czluciusdev.dice_roller.DiceImage):0:0 -> a
-    16:16:void access$removeDice(com.czluciusdev.dice_roller.DiceFragment,com.czluciusdev.dice_roller.DiceImage):0 -> a
-    17:17:java.util.Collection com.czluciusdev.dice_roller.DiceViewModel.getDiceCollection():0:0 -> a
-    17:17:void removeDice(com.czluciusdev.dice_roller.DiceImage):0 -> a
-    17:17:void access$removeDice(com.czluciusdev.dice_roller.DiceFragment,com.czluciusdev.dice_roller.DiceImage):0 -> a
-    18:18:void removeDice(com.czluciusdev.dice_roller.DiceImage):0:0 -> a
-    18:18:void access$removeDice(com.czluciusdev.dice_roller.DiceFragment,com.czluciusdev.dice_roller.DiceImage):0 -> a
-    19:19:androidx.lifecycle.MutableLiveData com.czluciusdev.dice_roller.DiceViewModel.getTotalDiceNumber():0:0 -> a
-    19:19:void removeDice(com.czluciusdev.dice_roller.DiceImage):0 -> a
-    19:19:void access$removeDice(com.czluciusdev.dice_roller.DiceFragment,com.czluciusdev.dice_roller.DiceImage):0 -> a
-    20:20:void removeDice(com.czluciusdev.dice_roller.DiceImage):0:0 -> a
-    20:20:void access$removeDice(com.czluciusdev.dice_roller.DiceFragment,com.czluciusdev.dice_roller.DiceImage):0 -> a
-    21:21:androidx.lifecycle.MutableLiveData com.czluciusdev.dice_roller.DiceViewModel.getTotalDiceNumber():0:0 -> a
-    21:21:void removeDice(com.czluciusdev.dice_roller.DiceImage):0 -> a
-    21:21:void access$removeDice(com.czluciusdev.dice_roller.DiceFragment,com.czluciusdev.dice_roller.DiceImage):0 -> a
-    22:22:void removeDice(com.czluciusdev.dice_roller.DiceImage):0:0 -> a
-    22:22:void access$removeDice(com.czluciusdev.dice_roller.DiceFragment,com.czluciusdev.dice_roller.DiceImage):0 -> a
+    15:15:void access$addDice(com.czluciusdev.diceroller.DiceFragment):0 -> a
+    16:16:void removeDice(com.czluciusdev.diceroller.DiceImage):0:0 -> a
+    16:16:void access$removeDice(com.czluciusdev.diceroller.DiceFragment,com.czluciusdev.diceroller.DiceImage):0 -> a
+    17:17:java.util.Collection com.czluciusdev.diceroller.DiceViewModel.getDiceCollection():0:0 -> a
+    17:17:void removeDice(com.czluciusdev.diceroller.DiceImage):0 -> a
+    17:17:void access$removeDice(com.czluciusdev.diceroller.DiceFragment,com.czluciusdev.diceroller.DiceImage):0 -> a
+    18:18:void removeDice(com.czluciusdev.diceroller.DiceImage):0:0 -> a
+    18:18:void access$removeDice(com.czluciusdev.diceroller.DiceFragment,com.czluciusdev.diceroller.DiceImage):0 -> a
+    19:19:androidx.lifecycle.MutableLiveData com.czluciusdev.diceroller.DiceViewModel.getTotalDiceNumber():0:0 -> a
+    19:19:void removeDice(com.czluciusdev.diceroller.DiceImage):0 -> a
+    19:19:void access$removeDice(com.czluciusdev.diceroller.DiceFragment,com.czluciusdev.diceroller.DiceImage):0 -> a
+    20:20:void removeDice(com.czluciusdev.diceroller.DiceImage):0:0 -> a
+    20:20:void access$removeDice(com.czluciusdev.diceroller.DiceFragment,com.czluciusdev.diceroller.DiceImage):0 -> a
+    21:21:androidx.lifecycle.MutableLiveData com.czluciusdev.diceroller.DiceViewModel.getTotalDiceNumber():0:0 -> a
+    21:21:void removeDice(com.czluciusdev.diceroller.DiceImage):0 -> a
+    21:21:void access$removeDice(com.czluciusdev.diceroller.DiceFragment,com.czluciusdev.diceroller.DiceImage):0 -> a
+    22:22:void removeDice(com.czluciusdev.diceroller.DiceImage):0:0 -> a
+    22:22:void access$removeDice(com.czluciusdev.diceroller.DiceFragment,com.czluciusdev.diceroller.DiceImage):0 -> a
     23:23:androidx.databinding.ViewDataBinding androidx.databinding.DataBindingUtil.inflate(android.view.LayoutInflater,int,android.view.ViewGroup,boolean):0:0 -> a
     23:23:android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle):0 -> a
     24:24:androidx.databinding.ViewDataBinding androidx.databinding.DataBindingUtil.inflate(android.view.LayoutInflater,int,android.view.ViewGroup,boolean,androidx.databinding.DataBindingComponent):0:0 -> a
@@ -20156,12 +20153,12 @@ com.czluciusdev.dice_roller.DiceFragment -> com.czluciusdev.dice_roller.DiceFrag
     29:29:android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle):0 -> a
     30:30:void restoreDice():0:0 -> a
     30:30:android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle):0 -> a
-    31:31:java.util.Collection com.czluciusdev.dice_roller.DiceViewModel.getDiceCollection():0:0 -> a
+    31:31:java.util.Collection com.czluciusdev.diceroller.DiceViewModel.getDiceCollection():0:0 -> a
     31:31:void restoreDice():0 -> a
     31:31:android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle):0 -> a
     32:32:void restoreDice():0:0 -> a
     32:32:android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle):0 -> a
-    33:33:java.util.Collection com.czluciusdev.dice_roller.DiceViewModel.getDiceCollection():0:0 -> a
+    33:33:java.util.Collection com.czluciusdev.diceroller.DiceViewModel.getDiceCollection():0:0 -> a
     33:33:void restoreDice():0 -> a
     33:33:android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle):0 -> a
     34:34:void restoreDice():0:0 -> a
@@ -20172,86 +20169,86 @@ com.czluciusdev.dice_roller.DiceFragment -> com.czluciusdev.dice_roller.DiceFrag
     37:37:android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle):0:0 -> a
     38:38:void kotlin.jvm.internal.Intrinsics.checkParameterIsNotNull(java.lang.Object,java.lang.String):0:0 -> a
     38:38:android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle):0 -> a
-    com.czluciusdev.dice_roller.DiceViewModel access$getViewModel$p(com.czluciusdev.dice_roller.DiceFragment) -> b
+    com.czluciusdev.diceroller.DiceViewModel access$getViewModel$p(com.czluciusdev.diceroller.DiceFragment) -> b
     1:1:androidx.navigation.NavController androidx.navigation.fragment.FragmentKt.findNavController(androidx.fragment.app.Fragment):0:0 -> c
     1:1:void infoNav():0 -> c
-    1:1:void access$infoNav(com.czluciusdev.dice_roller.DiceFragment):0 -> c
+    1:1:void access$infoNav(com.czluciusdev.diceroller.DiceFragment):0 -> c
     2:2:void androidx.navigation.NavController.navigate(int,android.os.Bundle,androidx.navigation.NavOptions,androidx.navigation.Navigator$Extras):0:0 -> c
     2:2:void androidx.navigation.NavController.navigate(int,android.os.Bundle,androidx.navigation.NavOptions):0 -> c
     2:2:void androidx.navigation.NavController.navigate(int,android.os.Bundle):0 -> c
     2:2:void androidx.navigation.NavController.navigate(int):0 -> c
     2:2:void infoNav():0 -> c
-    2:2:void access$infoNav(com.czluciusdev.dice_roller.DiceFragment):0 -> c
+    2:2:void access$infoNav(com.czluciusdev.diceroller.DiceFragment):0 -> c
     3:3:androidx.navigation.NavDestination androidx.navigation.NavBackStackEntry.getDestination():0:0 -> c
     3:3:void androidx.navigation.NavController.navigate(int,android.os.Bundle,androidx.navigation.NavOptions,androidx.navigation.Navigator$Extras):0 -> c
     3:3:void androidx.navigation.NavController.navigate(int,android.os.Bundle,androidx.navigation.NavOptions):0 -> c
     3:3:void androidx.navigation.NavController.navigate(int,android.os.Bundle):0 -> c
     3:3:void androidx.navigation.NavController.navigate(int):0 -> c
     3:3:void infoNav():0 -> c
-    3:3:void access$infoNav(com.czluciusdev.dice_roller.DiceFragment):0 -> c
+    3:3:void access$infoNav(com.czluciusdev.diceroller.DiceFragment):0 -> c
     4:4:void androidx.navigation.NavController.navigate(int,android.os.Bundle,androidx.navigation.NavOptions,androidx.navigation.Navigator$Extras):0:0 -> c
     4:4:void androidx.navigation.NavController.navigate(int,android.os.Bundle,androidx.navigation.NavOptions):0 -> c
     4:4:void androidx.navigation.NavController.navigate(int,android.os.Bundle):0 -> c
     4:4:void androidx.navigation.NavController.navigate(int):0 -> c
     4:4:void infoNav():0 -> c
-    4:4:void access$infoNav(com.czluciusdev.dice_roller.DiceFragment):0 -> c
+    4:4:void access$infoNav(com.czluciusdev.diceroller.DiceFragment):0 -> c
     5:5:androidx.navigation.NavOptions androidx.navigation.NavAction.getNavOptions():0:0 -> c
     5:5:void androidx.navigation.NavController.navigate(int,android.os.Bundle,androidx.navigation.NavOptions,androidx.navigation.Navigator$Extras):0 -> c
     5:5:void androidx.navigation.NavController.navigate(int,android.os.Bundle,androidx.navigation.NavOptions):0 -> c
     5:5:void androidx.navigation.NavController.navigate(int,android.os.Bundle):0 -> c
     5:5:void androidx.navigation.NavController.navigate(int):0 -> c
     5:5:void infoNav():0 -> c
-    5:5:void access$infoNav(com.czluciusdev.dice_roller.DiceFragment):0 -> c
+    5:5:void access$infoNav(com.czluciusdev.diceroller.DiceFragment):0 -> c
     6:6:int androidx.navigation.NavAction.getDestinationId():0:0 -> c
     6:6:void androidx.navigation.NavController.navigate(int,android.os.Bundle,androidx.navigation.NavOptions,androidx.navigation.Navigator$Extras):0 -> c
     6:6:void androidx.navigation.NavController.navigate(int,android.os.Bundle,androidx.navigation.NavOptions):0 -> c
     6:6:void androidx.navigation.NavController.navigate(int,android.os.Bundle):0 -> c
     6:6:void androidx.navigation.NavController.navigate(int):0 -> c
     6:6:void infoNav():0 -> c
-    6:6:void access$infoNav(com.czluciusdev.dice_roller.DiceFragment):0 -> c
+    6:6:void access$infoNav(com.czluciusdev.diceroller.DiceFragment):0 -> c
     7:7:android.os.Bundle androidx.navigation.NavAction.getDefaultArguments():0:0 -> c
     7:7:void androidx.navigation.NavController.navigate(int,android.os.Bundle,androidx.navigation.NavOptions,androidx.navigation.Navigator$Extras):0 -> c
     7:7:void androidx.navigation.NavController.navigate(int,android.os.Bundle,androidx.navigation.NavOptions):0 -> c
     7:7:void androidx.navigation.NavController.navigate(int,android.os.Bundle):0 -> c
     7:7:void androidx.navigation.NavController.navigate(int):0 -> c
     7:7:void infoNav():0 -> c
-    7:7:void access$infoNav(com.czluciusdev.dice_roller.DiceFragment):0 -> c
+    7:7:void access$infoNav(com.czluciusdev.diceroller.DiceFragment):0 -> c
     8:8:void androidx.navigation.NavController.navigate(int,android.os.Bundle,androidx.navigation.NavOptions,androidx.navigation.Navigator$Extras):0:0 -> c
     8:8:void androidx.navigation.NavController.navigate(int,android.os.Bundle,androidx.navigation.NavOptions):0 -> c
     8:8:void androidx.navigation.NavController.navigate(int,android.os.Bundle):0 -> c
     8:8:void androidx.navigation.NavController.navigate(int):0 -> c
     8:8:void infoNav():0 -> c
-    8:8:void access$infoNav(com.czluciusdev.dice_roller.DiceFragment):0 -> c
+    8:8:void access$infoNav(com.czluciusdev.diceroller.DiceFragment):0 -> c
     9:9:int androidx.navigation.NavOptions.getPopUpTo():0:0 -> c
     9:9:void androidx.navigation.NavController.navigate(int,android.os.Bundle,androidx.navigation.NavOptions,androidx.navigation.Navigator$Extras):0 -> c
     9:9:void androidx.navigation.NavController.navigate(int,android.os.Bundle,androidx.navigation.NavOptions):0 -> c
     9:9:void androidx.navigation.NavController.navigate(int,android.os.Bundle):0 -> c
     9:9:void androidx.navigation.NavController.navigate(int):0 -> c
     9:9:void infoNav():0 -> c
-    9:9:void access$infoNav(com.czluciusdev.dice_roller.DiceFragment):0 -> c
+    9:9:void access$infoNav(com.czluciusdev.diceroller.DiceFragment):0 -> c
     10:10:boolean androidx.navigation.NavOptions.isPopUpToInclusive():0:0 -> c
     10:10:void androidx.navigation.NavController.navigate(int,android.os.Bundle,androidx.navigation.NavOptions,androidx.navigation.Navigator$Extras):0 -> c
     10:10:void androidx.navigation.NavController.navigate(int,android.os.Bundle,androidx.navigation.NavOptions):0 -> c
     10:10:void androidx.navigation.NavController.navigate(int,android.os.Bundle):0 -> c
     10:10:void androidx.navigation.NavController.navigate(int):0 -> c
     10:10:void infoNav():0 -> c
-    10:10:void access$infoNav(com.czluciusdev.dice_roller.DiceFragment):0 -> c
+    10:10:void access$infoNav(com.czluciusdev.diceroller.DiceFragment):0 -> c
     11:11:boolean androidx.navigation.NavController.popBackStack(int,boolean):0:0 -> c
     11:11:void androidx.navigation.NavController.navigate(int,android.os.Bundle,androidx.navigation.NavOptions,androidx.navigation.Navigator$Extras):0 -> c
     11:11:void androidx.navigation.NavController.navigate(int,android.os.Bundle,androidx.navigation.NavOptions):0 -> c
     11:11:void androidx.navigation.NavController.navigate(int,android.os.Bundle):0 -> c
     11:11:void androidx.navigation.NavController.navigate(int):0 -> c
     11:11:void infoNav():0 -> c
-    11:11:void access$infoNav(com.czluciusdev.dice_roller.DiceFragment):0 -> c
+    11:11:void access$infoNav(com.czluciusdev.diceroller.DiceFragment):0 -> c
     12:12:void androidx.navigation.NavController.navigate(int,android.os.Bundle,androidx.navigation.NavOptions,androidx.navigation.Navigator$Extras):0:0 -> c
     12:12:void androidx.navigation.NavController.navigate(int,android.os.Bundle,androidx.navigation.NavOptions):0 -> c
     12:12:void androidx.navigation.NavController.navigate(int,android.os.Bundle):0 -> c
     12:12:void androidx.navigation.NavController.navigate(int):0 -> c
     12:12:void infoNav():0 -> c
-    12:12:void access$infoNav(com.czluciusdev.dice_roller.DiceFragment):0 -> c
+    12:12:void access$infoNav(com.czluciusdev.diceroller.DiceFragment):0 -> c
     13:13:androidx.navigation.NavController androidx.navigation.fragment.FragmentKt.findNavController(androidx.fragment.app.Fragment):0:0 -> c
     13:13:void infoNav():0 -> c
-    13:13:void access$infoNav(com.czluciusdev.dice_roller.DiceFragment):0 -> c
+    13:13:void access$infoNav(com.czluciusdev.diceroller.DiceFragment):0 -> c
     1:1:void androidx.fragment.app.Fragment.onDestroyView():0:0 -> u
     1:1:void onDestroyView():0 -> u
     2:2:void _$_clearFindViewByIdCache():0:0 -> u
@@ -20270,27 +20267,27 @@ com.czluciusdev.dice_roller.DiceFragment -> com.czluciusdev.dice_roller.DiceFrag
     5:5:void androidx.fragment.app.Fragment.onStop():0:0 -> x
     5:5:void onStop():0 -> x
     6:6:void onStop():0:0 -> x
-com.czluciusdev.dice_roller.DiceFragment$$special$$inlined$viewModels$1 -> com.czluciusdev.dice_roller.DiceFragment$a:
+com.czluciusdev.diceroller.DiceFragment$$special$$inlined$viewModels$1 -> com.czluciusdev.diceroller.DiceFragment$a:
     androidx.fragment.app.Fragment $this_viewModels -> d
     1:1:androidx.fragment.app.Fragment invoke():0:0 -> invoke
     1:1:java.lang.Object invoke():0 -> invoke
-com.czluciusdev.dice_roller.DiceFragment$$special$$inlined$viewModels$2 -> com.czluciusdev.dice_roller.DiceFragment$b:
+com.czluciusdev.diceroller.DiceFragment$$special$$inlined$viewModels$2 -> com.czluciusdev.diceroller.DiceFragment$b:
     kotlin.jvm.functions.Function0 $ownerProducer -> d
     1:1:androidx.lifecycle.ViewModelStore invoke():0:0 -> invoke
     1:1:java.lang.Object invoke():0 -> invoke
-com.czluciusdev.dice_roller.DiceFragment$OrientationListener -> com.czluciusdev.dice_roller.DiceFragment$c:
+com.czluciusdev.diceroller.DiceFragment$OrientationListener -> com.czluciusdev.diceroller.DiceFragment$c:
     kotlin.Pair rotation270 -> d
     kotlin.Pair rotation90 -> b
     kotlin.Pair rotation180 -> c
-    com.czluciusdev.dice_roller.databinding.DiceFragmentBinding binding -> j
     int rotationState270 -> h
+    com.czluciusdev.diceroller.databinding.DiceFragmentBinding binding -> j
     kotlin.Pair rotation0 -> a
     int rotation -> i
     int rotationState90 -> f
     int rotationState180 -> g
     int rotationState0 -> e
     1:1:void kotlin.jvm.internal.Intrinsics.checkParameterIsNotNull(java.lang.Object,java.lang.String):0:0 -> <init>
-    1:1:void <init>(android.content.Context,com.czluciusdev.dice_roller.databinding.DiceFragmentBinding):0 -> <init>
+    1:1:void <init>(android.content.Context,com.czluciusdev.diceroller.databinding.DiceFragmentBinding):0 -> <init>
     void animateViewsByDegrees(float) -> a
     1:1:java.lang.Object kotlin.Pair.getFirst():0:0 -> onOrientationChanged
     1:1:void onOrientationChanged(int):0 -> onOrientationChanged
@@ -20316,55 +20313,73 @@ com.czluciusdev.dice_roller.DiceFragment$OrientationListener -> com.czluciusdev.
     15:15:java.lang.Object kotlin.Pair.getSecond():0:0 -> onOrientationChanged
     15:15:void onOrientationChanged(int):0 -> onOrientationChanged
     16:16:void onOrientationChanged(int):0:0 -> onOrientationChanged
-com.czluciusdev.dice_roller.DiceFragment$diceLongClickListener$1 -> com.czluciusdev.dice_roller.DiceFragment$d:
-    com.czluciusdev.dice_roller.DiceFragment$diceLongClickListener$1 INSTANCE -> d
-com.czluciusdev.dice_roller.DiceFragment$diceOnDragListener$1 -> com.czluciusdev.dice_roller.DiceFragment$e:
-    com.czluciusdev.dice_roller.DiceFragment this$0 -> a
-    1:1:com.czluciusdev.dice_roller.databinding.DiceFragmentBinding com.czluciusdev.dice_roller.DiceFragment.access$getBinding$p(com.czluciusdev.dice_roller.DiceFragment):0:0 -> onDrag
+com.czluciusdev.diceroller.DiceFragment$diceLongClickListener$1 -> com.czluciusdev.diceroller.DiceFragment$d:
+    com.czluciusdev.diceroller.DiceFragment$diceLongClickListener$1 INSTANCE -> d
+com.czluciusdev.diceroller.DiceFragment$diceOnDragListener$1 -> com.czluciusdev.diceroller.DiceFragment$e:
+    com.czluciusdev.diceroller.DiceFragment this$0 -> a
+    1:1:com.czluciusdev.diceroller.databinding.DiceFragmentBinding com.czluciusdev.diceroller.DiceFragment.access$getBinding$p(com.czluciusdev.diceroller.DiceFragment):0:0 -> onDrag
     1:1:boolean onDrag(android.view.View,android.view.DragEvent):0 -> onDrag
     2:2:boolean onDrag(android.view.View,android.view.DragEvent):0:0 -> onDrag
-    3:3:com.czluciusdev.dice_roller.databinding.DiceFragmentBinding com.czluciusdev.dice_roller.DiceFragment.access$getBinding$p(com.czluciusdev.dice_roller.DiceFragment):0:0 -> onDrag
+    3:3:com.czluciusdev.diceroller.databinding.DiceFragmentBinding com.czluciusdev.diceroller.DiceFragment.access$getBinding$p(com.czluciusdev.diceroller.DiceFragment):0:0 -> onDrag
     3:3:boolean onDrag(android.view.View,android.view.DragEvent):0 -> onDrag
     4:4:boolean onDrag(android.view.View,android.view.DragEvent):0:0 -> onDrag
-    5:5:com.czluciusdev.dice_roller.databinding.DiceFragmentBinding com.czluciusdev.dice_roller.DiceFragment.access$getBinding$p(com.czluciusdev.dice_roller.DiceFragment):0:0 -> onDrag
+    5:5:com.czluciusdev.diceroller.databinding.DiceFragmentBinding com.czluciusdev.diceroller.DiceFragment.access$getBinding$p(com.czluciusdev.diceroller.DiceFragment):0:0 -> onDrag
     5:5:boolean onDrag(android.view.View,android.view.DragEvent):0 -> onDrag
     6:6:boolean onDrag(android.view.View,android.view.DragEvent):0:0 -> onDrag
-    7:7:com.czluciusdev.dice_roller.databinding.DiceFragmentBinding com.czluciusdev.dice_roller.DiceFragment.access$getBinding$p(com.czluciusdev.dice_roller.DiceFragment):0:0 -> onDrag
+    7:7:com.czluciusdev.diceroller.databinding.DiceFragmentBinding com.czluciusdev.diceroller.DiceFragment.access$getBinding$p(com.czluciusdev.diceroller.DiceFragment):0:0 -> onDrag
     7:7:boolean onDrag(android.view.View,android.view.DragEvent):0 -> onDrag
     8:8:boolean onDrag(android.view.View,android.view.DragEvent):0:0 -> onDrag
-com.czluciusdev.dice_roller.DiceFragment$onCreateView$1 -> com.czluciusdev.dice_roller.DiceFragment$f:
-    com.czluciusdev.dice_roller.DiceFragment this$0 -> a
-com.czluciusdev.dice_roller.DiceFragment$onCreateView$2 -> com.czluciusdev.dice_roller.DiceFragment$g:
-    com.czluciusdev.dice_roller.DiceFragment this$0 -> d
-    1:1:java.util.Collection com.czluciusdev.dice_roller.DiceViewModel.getDiceCollection():0:0 -> onClick
+com.czluciusdev.diceroller.DiceFragment$onCreateView$1 -> com.czluciusdev.diceroller.DiceFragment$f:
+    com.czluciusdev.diceroller.DiceFragment this$0 -> a
+    1:1:void com.czluciusdev.diceroller.DiceFragment.removeAll():0:0 -> onMenuItemClick
+    1:1:void com.czluciusdev.diceroller.DiceFragment.access$removeAll(com.czluciusdev.diceroller.DiceFragment):0 -> onMenuItemClick
+    1:1:boolean onMenuItemClick(android.view.MenuItem):0 -> onMenuItemClick
+    2:2:java.util.Collection com.czluciusdev.diceroller.DiceViewModel.getDiceCollection():0:0 -> onMenuItemClick
+    2:2:void com.czluciusdev.diceroller.DiceFragment.removeAll():0 -> onMenuItemClick
+    2:2:void com.czluciusdev.diceroller.DiceFragment.access$removeAll(com.czluciusdev.diceroller.DiceFragment):0 -> onMenuItemClick
+    2:2:boolean onMenuItemClick(android.view.MenuItem):0 -> onMenuItemClick
+    3:3:void com.czluciusdev.diceroller.DiceFragment.removeAll():0:0 -> onMenuItemClick
+    3:3:void com.czluciusdev.diceroller.DiceFragment.access$removeAll(com.czluciusdev.diceroller.DiceFragment):0 -> onMenuItemClick
+    3:3:boolean onMenuItemClick(android.view.MenuItem):0 -> onMenuItemClick
+    4:4:androidx.lifecycle.MutableLiveData com.czluciusdev.diceroller.DiceViewModel.getTotalDiceNumber():0:0 -> onMenuItemClick
+    4:4:void com.czluciusdev.diceroller.DiceFragment.removeAll():0 -> onMenuItemClick
+    4:4:void com.czluciusdev.diceroller.DiceFragment.access$removeAll(com.czluciusdev.diceroller.DiceFragment):0 -> onMenuItemClick
+    4:4:boolean onMenuItemClick(android.view.MenuItem):0 -> onMenuItemClick
+    5:5:void com.czluciusdev.diceroller.DiceFragment.removeAll():0:0 -> onMenuItemClick
+    5:5:void com.czluciusdev.diceroller.DiceFragment.access$removeAll(com.czluciusdev.diceroller.DiceFragment):0 -> onMenuItemClick
+    5:5:boolean onMenuItemClick(android.view.MenuItem):0 -> onMenuItemClick
+    6:6:boolean onMenuItemClick(android.view.MenuItem):0:0 -> onMenuItemClick
+com.czluciusdev.diceroller.DiceFragment$onCreateView$2 -> com.czluciusdev.diceroller.DiceFragment$g:
+    com.czluciusdev.diceroller.DiceFragment this$0 -> d
+    1:1:java.util.Collection com.czluciusdev.diceroller.DiceViewModel.getDiceCollection():0:0 -> onClick
     1:1:void onClick(android.view.View):0 -> onClick
     2:2:void onClick(android.view.View):0:0 -> onClick
-    3:3:void com.czluciusdev.dice_roller.DiceFragment.rollDice():0:0 -> onClick
-    3:3:void com.czluciusdev.dice_roller.DiceFragment.access$rollDice(com.czluciusdev.dice_roller.DiceFragment):0 -> onClick
+    3:3:void com.czluciusdev.diceroller.DiceFragment.rollDice():0:0 -> onClick
+    3:3:void com.czluciusdev.diceroller.DiceFragment.access$rollDice(com.czluciusdev.diceroller.DiceFragment):0 -> onClick
     3:3:void onClick(android.view.View):0 -> onClick
-    4:4:java.util.Collection com.czluciusdev.dice_roller.DiceViewModel.getDiceCollection():0:0 -> onClick
-    4:4:void com.czluciusdev.dice_roller.DiceFragment.rollDice():0 -> onClick
-    4:4:void com.czluciusdev.dice_roller.DiceFragment.access$rollDice(com.czluciusdev.dice_roller.DiceFragment):0 -> onClick
+    4:4:java.util.Collection com.czluciusdev.diceroller.DiceViewModel.getDiceCollection():0:0 -> onClick
+    4:4:void com.czluciusdev.diceroller.DiceFragment.rollDice():0 -> onClick
+    4:4:void com.czluciusdev.diceroller.DiceFragment.access$rollDice(com.czluciusdev.diceroller.DiceFragment):0 -> onClick
     4:4:void onClick(android.view.View):0 -> onClick
-    5:5:void com.czluciusdev.dice_roller.DiceFragment.rollDice():0:0 -> onClick
-    5:5:void com.czluciusdev.dice_roller.DiceFragment.access$rollDice(com.czluciusdev.dice_roller.DiceFragment):0 -> onClick
+    5:5:void com.czluciusdev.diceroller.DiceFragment.rollDice():0:0 -> onClick
+    5:5:void com.czluciusdev.diceroller.DiceFragment.access$rollDice(com.czluciusdev.diceroller.DiceFragment):0 -> onClick
     5:5:void onClick(android.view.View):0 -> onClick
-    6:6:androidx.lifecycle.MutableLiveData com.czluciusdev.dice_roller.DiceViewModel.getTotalDiceNumber():0:0 -> onClick
-    6:6:void com.czluciusdev.dice_roller.DiceFragment.rollDice():0 -> onClick
-    6:6:void com.czluciusdev.dice_roller.DiceFragment.access$rollDice(com.czluciusdev.dice_roller.DiceFragment):0 -> onClick
+    6:6:androidx.lifecycle.MutableLiveData com.czluciusdev.diceroller.DiceViewModel.getTotalDiceNumber():0:0 -> onClick
+    6:6:void com.czluciusdev.diceroller.DiceFragment.rollDice():0 -> onClick
+    6:6:void com.czluciusdev.diceroller.DiceFragment.access$rollDice(com.czluciusdev.diceroller.DiceFragment):0 -> onClick
     6:6:void onClick(android.view.View):0 -> onClick
-    7:7:void com.czluciusdev.dice_roller.DiceFragment.rollDice():0:0 -> onClick
-    7:7:void com.czluciusdev.dice_roller.DiceFragment.access$rollDice(com.czluciusdev.dice_roller.DiceFragment):0 -> onClick
+    7:7:void com.czluciusdev.diceroller.DiceFragment.rollDice():0:0 -> onClick
+    7:7:void com.czluciusdev.diceroller.DiceFragment.access$rollDice(com.czluciusdev.diceroller.DiceFragment):0 -> onClick
     7:7:void onClick(android.view.View):0 -> onClick
     8:8:void onClick(android.view.View):0:0 -> onClick
-com.czluciusdev.dice_roller.DiceImage -> c.b.a.b:
+com.czluciusdev.diceroller.DiceImage -> c.b.a.b:
     java.lang.Number dicePercentY -> h
     java.lang.Number diceXMarginPercentage -> g
     int diceNumber -> f
     1:1:void androidx.appcompat.widget.AppCompatImageView.<init>(android.content.Context,android.util.AttributeSet):0:0 -> <init>
     1:1:void androidx.appcompat.widget.AppCompatImageView.<init>(android.content.Context):0 -> <init>
     1:1:void <init>(android.content.Context):0 -> <init>
-com.czluciusdev.dice_roller.DiceViewModel -> c.b.a.c:
+com.czluciusdev.diceroller.DiceViewModel -> c.b.a.c:
     java.util.Collection diceCollection -> e
     androidx.lifecycle.MutableLiveData totalDiceNumber -> c
     androidx.lifecycle.LiveData diceNumberString -> d
@@ -20381,11 +20396,11 @@ com.czluciusdev.dice_roller.DiceViewModel -> c.b.a.c:
     4:4:androidx.lifecycle.LiveData androidx.lifecycle.Transformations.map(androidx.lifecycle.LiveData,androidx.arch.core.util.Function):0 -> <init>
     4:4:void <init>():0 -> <init>
     5:5:void <init>():0:0 -> <init>
-com.czluciusdev.dice_roller.DiceViewModel$diceNumberString$1 -> c.b.a.c$a:
-    com.czluciusdev.dice_roller.DiceViewModel$diceNumberString$1 INSTANCE -> a
+com.czluciusdev.diceroller.DiceViewModel$diceNumberString$1 -> c.b.a.c$a:
+    com.czluciusdev.diceroller.DiceViewModel$diceNumberString$1 INSTANCE -> a
     1:1:java.lang.String apply(java.lang.Integer):0:0 -> a
     1:1:java.lang.Object apply(java.lang.Object):0 -> a
-com.czluciusdev.dice_roller.MainActivity -> com.czluciusdev.dice_roller.MainActivity:
+com.czluciusdev.diceroller.MainActivity -> com.czluciusdev.diceroller.MainActivity:
     1:1:boolean androidx.navigation.NavController.navigateUp():0:0 -> i
     1:1:boolean onSupportNavigateUp():0 -> i
     2:2:int androidx.navigation.NavDestination.getId():0:0 -> i
@@ -20520,16 +20535,16 @@ com.czluciusdev.dice_roller.MainActivity -> com.czluciusdev.dice_roller.MainActi
     14:14:androidx.navigation.NavGraph androidx.navigation.NavController.getGraph():0:0 -> onCreate
     14:14:void androidx.navigation.ui.NavigationUI.setupActionBarWithNavController(androidx.appcompat.app.AppCompatActivity,androidx.navigation.NavController):0 -> onCreate
     14:14:void onCreate(android.os.Bundle):0 -> onCreate
-com.czluciusdev.dice_roller.R$id -> c.b.a.d:
-com.czluciusdev.dice_roller.databinding.DiceFragmentBinding -> c.b.a.e.a:
+com.czluciusdev.diceroller.R$id -> c.b.a.d:
+com.czluciusdev.diceroller.databinding.DiceFragmentBinding -> c.b.a.e.a:
     com.google.android.material.bottomappbar.BottomAppBar bottomApp -> s
     com.google.android.material.floatingactionbutton.FloatingActionButton fabRoll -> v
-    com.czluciusdev.dice_roller.DiceViewModel mVm -> x
     android.widget.RelativeLayout diceCanvas -> t
     android.widget.TextView diceNum -> u
+    com.czluciusdev.diceroller.DiceViewModel mVm -> x
     android.widget.LinearLayout removeArea -> w
-    void setVm(com.czluciusdev.dice_roller.DiceViewModel) -> a
-com.czluciusdev.dice_roller.databinding.DiceFragmentBindingImpl -> c.b.a.e.b:
+    void setVm(com.czluciusdev.diceroller.DiceViewModel) -> a
+com.czluciusdev.diceroller.databinding.DiceFragmentBindingImpl -> c.b.a.e.b:
     long mDirtyFlags -> z
     android.util.SparseIntArray sViewsWithIds -> A
     androidx.coordinatorlayout.widget.CoordinatorLayout mboundView0 -> y
@@ -20544,11 +20559,11 @@ com.czluciusdev.dice_roller.databinding.DiceFragmentBindingImpl -> c.b.a.e.b:
     4:4:void <init>(androidx.databinding.DataBindingComponent,android.view.View,java.lang.Object[]):0 -> <init>
     4:4:void <init>(androidx.databinding.DataBindingComponent,android.view.View):0 -> <init>
     1:1:void androidx.databinding.BaseObservable.notifyPropertyChanged(int):0:0 -> a
-    1:1:void setVm(com.czluciusdev.dice_roller.DiceViewModel):0 -> a
-    2:2:void setVm(com.czluciusdev.dice_roller.DiceViewModel):0:0 -> a
+    1:1:void setVm(com.czluciusdev.diceroller.DiceViewModel):0 -> a
+    2:2:void setVm(com.czluciusdev.diceroller.DiceViewModel):0:0 -> a
     3:3:void androidx.databinding.BaseObservable.notifyPropertyChanged(int):0:0 -> a
-    3:3:void setVm(com.czluciusdev.dice_roller.DiceViewModel):0 -> a
-    4:4:void setVm(com.czluciusdev.dice_roller.DiceViewModel):0:0 -> a
+    3:3:void setVm(com.czluciusdev.diceroller.DiceViewModel):0 -> a
+    4:4:void setVm(com.czluciusdev.diceroller.DiceViewModel):0:0 -> a
 com.google.android.material.R$animator -> c.c.a.a.a:
 com.google.android.material.R$attr -> c.c.a.a.b:
 com.google.android.material.R$color -> c.c.a.a.c:

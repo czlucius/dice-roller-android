@@ -66,7 +66,7 @@ INJECTED from /home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManif
 INJECTED from /home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:2:1-24:12
 INJECTED from /home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:2:1-24:12
 	package
-		ADDED from /home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:3:5-42
+		ADDED from /home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:3:5-41
 		INJECTED from /home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml
 		INJECTED from /home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -107,12 +107,12 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/luciu
 		ADDED from /home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:8:9-36
 	android:theme
 		ADDED from /home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:13:9-40
-activity#com.czluciusdev.dice_roller.MainActivity
+activity#com.czluciusdev.diceroller.MainActivity
 ADDED from /home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:14:9-21:20
 	android:screenOrientation
-		ADDED from /home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:15:13-55
+		ADDED from /home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:15:13-49
 	android:name
-		ADDED from /home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:14:19-74
+		ADDED from /home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:14:19-73
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN

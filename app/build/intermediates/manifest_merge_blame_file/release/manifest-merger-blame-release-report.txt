@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.czluciusdev.dice_roller"
+3    package="com.czluciusdev.diceroller"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
@@ -28,10 +28,10 @@
 18-->/home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:13:9-40
 19        <activity
 19-->/home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:14:9-21:20
-20            android:name="com.czluciusdev.dice_roller.MainActivity"
-20-->/home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:14:19-74
-21            android:screenOrientation="sensorPortrait" >
-21-->/home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:15:13-55
+20            android:name="com.czluciusdev.diceroller.MainActivity"
+20-->/home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:14:19-73
+21            android:screenOrientation="portrait" >
+21-->/home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:15:13-49
 22            <intent-filter>
 22-->/home/luciuscheezihan/code/android/MyApp/app/src/main/AndroidManifest.xml:16:13-20:29
 23                <action android:name="android.intent.action.MAIN" />
@@ -48,7 +48,7 @@
 29-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/luciuscheezihan/.gradle/caches/transforms-2/files-2.1/bd6faf5cf735b8e6802f6b9fb42cdd6d/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
 30            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
 30-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/luciuscheezihan/.gradle/caches/transforms-2/files-2.1/bd6faf5cf735b8e6802f6b9fb42cdd6d/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
-31            android:authorities="com.czluciusdev.dice_roller.lifecycle-process"
+31            android:authorities="com.czluciusdev.diceroller.lifecycle-process"
 31-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/luciuscheezihan/.gradle/caches/transforms-2/files-2.1/bd6faf5cf735b8e6802f6b9fb42cdd6d/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
 32            android:exported="false"
 32-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/luciuscheezihan/.gradle/caches/transforms-2/files-2.1/bd6faf5cf735b8e6802f6b9fb42cdd6d/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37

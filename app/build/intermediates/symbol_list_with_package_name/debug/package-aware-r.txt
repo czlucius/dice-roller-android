@@ -1,4 +1,4 @@
-com.czluciusdev.dice_roller
+com.czluciusdev.diceroller
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -27,8 +27,6 @@ anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
-anim enter
-anim exit
 anim fragment_close_enter
 anim fragment_close_exit
 anim fragment_fade_enter
@@ -1485,7 +1483,6 @@ id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
 id action0
-id action_aboutFragment_to_diceFragment
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -1554,7 +1551,6 @@ id dialog_button
 id diceCanvas
 id diceFragment
 id diceNum
-id diceNumHolder
 id dimensions
 id direct
 id disableHome
@@ -1593,7 +1589,6 @@ id image
 id imageView
 id imageView3
 id info
-id infoNav
 id info_menu
 id invisible
 id italic
@@ -1640,6 +1635,8 @@ id multiply
 id navHost
 id nav_controller_view_tag
 id nav_host_fragment_container
+id navigate_to_diceFragment
+id navigate_to_info
 id navigation
 id navigation_header_container
 id never
@@ -1653,6 +1650,7 @@ id off
 id on
 id onAttachStateChangeListener
 id onDateChanged
+id openSourceLink
 id outline
 id packed
 id parallax
@@ -1666,6 +1664,7 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
+id remove_all
 id remove_area
 id right
 id right_icon
@@ -1995,15 +1994,21 @@ string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
+string no_browser
+string opensource_link
+string opensource_text
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string remove
+string remove_all
+string restoreData
 string roll
 string search_menu_title
 string status_bar_notification_info_overflow
+string zero
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

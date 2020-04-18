@@ -10,8 +10,12 @@
 
     <item
         android:id="@+id/info_menu"
-        android:icon="@drawable/ic_round_info_24"
         android:title="@string/info"
-        app:showAsAction="ifRoom"/>
+        />
+
+    <item
+        android:id="@+id/remove_all"
+        android:title="@string/remove_all"
+        app:showAsAction="never"/>
 
 </menu>

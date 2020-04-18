@@ -1,14 +1,6 @@
 kotlinx.coroutines.scheduling.ExperimentalCoroutineDispatcher
 kotlinx.coroutines.DebugKt
 kotlinx.coroutines.flow.FlowKt__DelayKt$debounce$2$values$1$invokeSuspend$$inlined$collect$1
-com.czluciusdev.dice_roller.databinding.DiceFragmentBinding:
-    public static com.czluciusdev.dice_roller.databinding.DiceFragmentBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)
-    public static com.czluciusdev.dice_roller.databinding.DiceFragmentBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean,java.lang.Object)
-    public static com.czluciusdev.dice_roller.databinding.DiceFragmentBinding inflate(android.view.LayoutInflater)
-    public static com.czluciusdev.dice_roller.databinding.DiceFragmentBinding inflate(android.view.LayoutInflater,java.lang.Object)
-    public static com.czluciusdev.dice_roller.databinding.DiceFragmentBinding bind(android.view.View)
-    public static com.czluciusdev.dice_roller.databinding.DiceFragmentBinding bind(android.view.View,java.lang.Object)
-    public com.czluciusdev.dice_roller.DiceViewModel getVm()
 androidx.recyclerview.widget.ThreadUtil
 kotlin.jvm.internal.PropertyReference1Impl:
     public java.lang.Object get(java.lang.Object)
@@ -932,7 +924,6 @@ kotlin.reflect.KTypeProjection
 androidx.appcompat.R$id:
     private void <init>()
 kotlin.comparisons.ComparisonsKt
-com.czluciusdev.dice_roller.R$navigation
 androidx.recyclerview.widget.AsyncListDiffer$1
 androidx.core.view.accessibility.AccessibilityViewCommand$SetProgressArguments:
     public float getProgress()
@@ -1040,7 +1031,6 @@ androidx.core.view.NestedScrollingChild2:
     public abstract boolean dispatchNestedPreScroll(int,int,int[],int[],int)
 kotlin.collections.MovingSubList
 androidx.annotation.InterpolatorRes
-com.czluciusdev.dice_roller.R$mipmap
 androidx.core.app.RemoteInput
 androidx.core.view.ActionProvider$SubUiVisibilityListener:
     public abstract void onSubUiVisibilityChanged(boolean)
@@ -1087,6 +1077,8 @@ androidx.viewpager2.widget.ViewPager2$PageAwareAccessibilityProvider
 kotlin.TypeAliasesKt
 kotlinx.coroutines.flow.FlowKt__TransformKt$scanReduce$$inlined$unsafeFlow$1
 kotlin.reflect.KProperty$Accessor
+com.czluciusdev.diceroller.databinding.DiceFragmentBindingImpl:
+    public boolean setVariable(int,java.lang.Object)
 kotlinx.coroutines.MainCoroutineDispatcher
 kotlin.coroutines.experimental.intrinsics.IntrinsicsKt
 androidx.navigation.NavDeepLinkBuilder$PermissiveNavigatorProvider
@@ -1337,7 +1329,6 @@ kotlinx.coroutines.TimeoutKt$withTimeoutOrNull$1
 androidx.recyclerview.widget.BatchingListUpdateCallback
 kotlin.collections.ArraysKt___ArraysKt$asIterable$$inlined$Iterable$2
 androidx.core.os.HandlerCompat
-com.czluciusdev.dice_roller.BR
 kotlin.UIntArray
 androidx.databinding.ObservableChar
 kotlinx.coroutines.flow.internal.ChildCancelledException
@@ -1351,7 +1342,6 @@ androidx.constraintlayout.solver.widgets.ResolutionNode:
 kotlinx.coroutines.flow.FlowKt__DelayKt$sample$2$values$1$invokeSuspend$$inlined$collect$1$1
 androidx.navigation.fragment.R$id:
     private void <init>()
-com.czluciusdev.dice_roller.R$animator
 androidx.core.transition.TransitionKt$doOnResume$$inlined$addListener$1
 kotlinx.coroutines.channels.ChannelsKt__Channels_commonKt$takeWhile$1
 androidx.swiperefreshlayout.widget.SwipeRefreshLayout$5
@@ -1382,7 +1372,6 @@ kotlin.text.StringsKt__StringNumberConversionsKt:
     public void <init>()
 androidx.legacy.v4.R$style
 kotlinx.coroutines.channels.LinkedListChannel
-com.czluciusdev.dice_roller.R$integer
 androidx.customview.widget.ViewDragHelper:
     public void setMinVelocity(float)
     public float getMinVelocity()
@@ -1412,6 +1401,7 @@ androidx.customview.widget.ViewDragHelper:
     private static final int MAX_SETTLE_DURATION
 androidx.core.view.accessibility.AccessibilityClickableSpanCompat:
     public static final java.lang.String SPAN_ID
+com.czluciusdev.diceroller.R$drawable
 androidx.cardview.widget.RoundRectDrawableWithShadow:
     void <init>(android.content.res.Resources,android.content.res.ColorStateList,float,float,float)
     private static final float SHADOW_MULTIPLIER
@@ -1612,9 +1602,6 @@ kotlin.jvm.internal.markers.KMutableSet
 kotlinx.coroutines.flow.FlowKt__MigrationKt$combine$$inlined$combine$2$2
 kotlinx.coroutines.flow.FlowKt__TransformKt$filterNot$$inlined$unsafeTransform$1$2
 kotlin.jvm.internal.IntSpreadBuilder
-com.czluciusdev.dice_roller.AboutFragment:
-    public static final com.czluciusdev.dice_roller.AboutFragment newInstance(java.lang.String,java.lang.String)
-    public android.view.View _$_findCachedViewById(int)
 androidx.databinding.ListChangeRegistry
 android.support.v4.media.MediaDescriptionCompatApi21$Builder:
     private void <init>()
@@ -1964,6 +1951,7 @@ androidx.lifecycle.AndroidViewModel:
     public void <init>(android.app.Application)
     public android.app.Application getApplication()
     private android.app.Application mApplication
+com.czluciusdev.diceroller.R$string
 androidx.transition.R
 kotlin.coroutines.experimental.CombinedContext
 androidx.loader.app.LoaderManagerImpl$LoaderViewModel:
@@ -2080,6 +2068,14 @@ com.google.android.material.chip.ChipGroup:
     public void check(int)
     public boolean isSingleSelection()
 androidx.viewpager2.widget.ViewPager2$AccessibilityProvider
+com.czluciusdev.diceroller.databinding.DiceFragmentBinding:
+    public static com.czluciusdev.diceroller.databinding.DiceFragmentBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)
+    public static com.czluciusdev.diceroller.databinding.DiceFragmentBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean,java.lang.Object)
+    public static com.czluciusdev.diceroller.databinding.DiceFragmentBinding inflate(android.view.LayoutInflater)
+    public static com.czluciusdev.diceroller.databinding.DiceFragmentBinding inflate(android.view.LayoutInflater,java.lang.Object)
+    public static com.czluciusdev.diceroller.databinding.DiceFragmentBinding bind(android.view.View)
+    public static com.czluciusdev.diceroller.databinding.DiceFragmentBinding bind(android.view.View,java.lang.Object)
+    public com.czluciusdev.diceroller.DiceViewModel getVm()
 androidx.recyclerview.widget.LinearSmoothScroller:
     private static final boolean DEBUG
     private static final float MILLISECONDS_PER_INCH
@@ -2186,7 +2182,7 @@ androidx.databinding.DataBinderMapper:
     public abstract java.lang.String convertBrIdToString(int)
 androidx.transition.PatternPathMotion
 kotlin.time.AbstractDoubleClock$DoubleClockMark
-com.czluciusdev.dice_roller.R$drawable
+com.czluciusdev.diceroller.R$color
 com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton$HideStrategy
 android.support.v4.media.session.MediaSessionCompat$1
 kotlin.internal.DynamicExtension
@@ -2229,6 +2225,7 @@ kotlin.jvm.internal.FunctionReferenceImpl
 kotlin.UByteArray
 kotlinx.coroutines.flow.FlowKt__ZipKt$combineTransform$6
 androidx.core.app.NotificationManagerCompat$SideChannelManager$ListenerRecord
+com.czluciusdev.diceroller.R$animator
 androidx.core.text.StringKt
 androidx.slidingpanelayout.R$id
 androidx.navigation.NavDestination:
@@ -2239,7 +2236,6 @@ androidx.navigation.NavDestination:
     public final void removeArgument(java.lang.String)
 androidx.core.view.MenuItemCompat$OnActionExpandListener
 androidx.databinding.library.baseAdapters.R$anim
-com.czluciusdev.dice_roller.R$string
 kotlinx.coroutines.flow.FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$9$1
 androidx.constraintlayout.widget.ConstraintHelper:
     public void <init>(android.content.Context,android.util.AttributeSet)
@@ -3527,6 +3523,8 @@ androidx.constraintlayout.solver.widgets.Optimizer:
     static final int FLAG_USE_OPTIMIZE
     static final int FLAG_CHAIN_DANGLING
     static final int FLAG_RECOMPUTE_BOUNDS
+com.czluciusdev.diceroller.DiceFragment:
+    public static final synthetic void access$setBinding$p(com.czluciusdev.diceroller.DiceFragment,com.czluciusdev.diceroller.databinding.DiceFragmentBinding)
 androidx.lifecycle.LifecycleCoroutineScopeImpl$register$1
 androidx.lifecycle.extensions.R$integer
 android.support.v4.os.ResultReceiver:
@@ -3626,6 +3624,7 @@ androidx.fragment.app.FragmentTransaction:
     public static final int TRANSIT_FRAGMENT_OPEN
     public static final int TRANSIT_FRAGMENT_CLOSE
     public static final int TRANSIT_FRAGMENT_FADE
+com.czluciusdev.diceroller.R$styleable
 androidx.core.app.AppComponentFactory
 androidx.navigation.fragment.DialogFragmentNavigatorDestinationBuilder
 androidx.core.app.NotificationCompatExtras
@@ -3697,7 +3696,6 @@ android.support.v4.media.MediaBrowserCompat$ItemCallback$StubApi23
 kotlinx.coroutines.DeferredCoroutine$await$1
 kotlin.time.MeasureTimeKt
 androidx.appcompat.resources.R$dimen
-com.czluciusdev.dice_roller.R$dimen
 kotlinx.coroutines.flow.FlowKt__MergeKt$map$$inlined$unsafeTransform$1$1
 kotlinx.coroutines.flow.FlowKt__ZipKt$combine$$inlined$unsafeFlow$3
 kotlinx.coroutines.Active
@@ -3831,7 +3829,6 @@ kotlin.collections.CollectionsKt__CollectionsJVMKt
 androidx.loader.R$attr
 com.google.android.material.internal.TextScale$1
 androidx.lifecycle.PausingDispatcherKt$whenStateAtLeast$2
-com.czluciusdev.dice_roller.R$plurals
 androidx.core.os.BuildCompat
 androidx.navigation.ui.R$color
 androidx.appcompat.widget.ShareActionProvider$ShareActivityChooserModelPolicy
@@ -4310,8 +4307,8 @@ androidx.navigation.R$style
 androidx.media.MediaBrowserServiceCompat$ServiceBinderImpl$4
 androidx.legacy.coreutils.R$color
 kotlin.jvm.functions.Function18
-kotlinx.coroutines.SelectAwaitOnCompletion
 kotlinx.coroutines.internal.ExceptionsConstuctorKt$createConstructor$$inlined$safeCtor$2
+kotlinx.coroutines.SelectAwaitOnCompletion
 kotlinx.coroutines.channels.ChannelsKt__Channels_commonKt$flatMap$1
 kotlin.io.LinesSequence
 androidx.versionedparcelable.VersionedParcel$ParcelException
@@ -4526,6 +4523,8 @@ androidx.viewpager2.widget.ViewPager2$2
 kotlin.random.KotlinRandom
 kotlin.collections.SlidingWindowKt
 kotlinx.coroutines.channels.AbstractSendChannel$onSend$1
+com.czluciusdev.diceroller.R$id:
+    private void <init>()
 kotlinx.coroutines.flow.FlowKt__TransformKt$map$$inlined$unsafeTransform$1$2$1
 androidx.recyclerview.widget.TileList$Tile
 androidx.slidingpanelayout.R$drawable
@@ -4569,6 +4568,17 @@ androidx.core.os.ParcelCompat
 kotlinx.coroutines.flow.FlowKt__ZipKt$combine$$inlined$unsafeFlow$2$lambda$1
 android.support.v4.media.session.MediaSessionCompat$MediaSessionImplApi21
 kotlin.jvm.internal.MutablePropertyReference2
+com.czluciusdev.diceroller.DiceFragment$OrientationListener:
+    public final kotlin.Pair getRotation0()
+    public final kotlin.Pair getRotation90()
+    public final kotlin.Pair getRotation180()
+    public final kotlin.Pair getRotation270()
+    public final int getRotationState0()
+    public final int getRotationState90()
+    public final int getRotationState180()
+    public final int getRotationState270()
+    public final android.content.Context getContext()
+    public final com.czluciusdev.diceroller.databinding.DiceFragmentBinding getBinding()
 androidx.core.text.SpannableStringBuilderKt
 androidx.core.R$id:
     private void <init>()
@@ -4702,7 +4712,6 @@ androidx.recyclerview.widget.LayoutState:
     static final int ITEM_DIRECTION_HEAD
     static final int ITEM_DIRECTION_TAIL
 android.support.v4.media.session.PlaybackStateCompat$Actions
-com.czluciusdev.dice_roller.R$xml
 androidx.swiperefreshlayout.widget.SwipeRefreshLayout$7
 androidx.viewpager.R$styleable
 kotlin.collections.UCollectionsKt___UCollectionsKt
@@ -4711,6 +4720,7 @@ androidx.navigation.ui.NavigationUI$2
 androidx.core.app.JobIntentService$CompatWorkEnqueuer
 androidx.swiperefreshlayout.R$string
 androidx.activity.R$dimen
+com.czluciusdev.diceroller.R$style
 androidx.core.transition.TransitionKt$addListener$5
 kotlinx.coroutines.flow.FlowKt__MergeKt$unsafeTransform$$inlined$unsafeFlow$1$1
 androidx.asynclayoutinflater.R$dimen
@@ -5065,10 +5075,6 @@ androidx.customview.widget.ExploreByTouchHelper:
     public static final int INVALID_ID
     public static final int HOST_ID
     private static final java.lang.String DEFAULT_CLASS_NAME
-com.czluciusdev.dice_roller.DataBinderMapperImpl:
-    public int getLayoutId(java.lang.String)
-    public java.lang.String convertBrIdToString(int)
-    private static final int LAYOUT_DICEFRAGMENT
 com.google.android.material.snackbar.BaseTransientBottomBar$13
 androidx.annotation.CheckResult
 kotlinx.coroutines.flow.FlowKt__ReduceKt$single$$inlined$collect$1
@@ -5210,7 +5216,6 @@ kotlin.ranges.LongProgression$Companion
 kotlinx.coroutines.flow.internal.FlowProduceCoroutine
 kotlinx.coroutines.flow.FlowKt__TransformKt$unsafeTransform$$inlined$unsafeFlow$5
 kotlinx.coroutines.channels.ChannelsKt__Channels_commonKt$filterTo$3
-com.czluciusdev.dice_roller.R$bool
 androidx.databinding.adapters.ViewBindingAdapter$1
 androidx.navigation.ui.AppBarConfigurationKt$AppBarConfiguration$3
 kotlinx.coroutines.flow.FlowKt__LimitKt
@@ -5312,6 +5317,7 @@ androidx.core.graphics.drawable.DrawableKt
 kotlin.reflect.KCallable$DefaultImpls
 androidx.databinding.library.baseAdapters.R$integer
 kotlin.jvm.internal.markers.KMutableList
+com.czluciusdev.diceroller.R$interpolator
 androidx.transition.Styleable
 kotlin.NoWhenBranchMatchedException
 kotlin.text.MatchGroupCollection
@@ -5690,6 +5696,8 @@ androidx.core.view.accessibility.AccessibilityNodeInfoCompat$TouchDelegateInfoCo
 com.google.android.material.bottomnavigation.BottomNavigationItemView
 androidx.transition.TranslationAnimationCreator$TransitionPositionListener
 kotlinx.coroutines.selects.WhileSelectKt$whileSelect$1
+com.czluciusdev.diceroller.DiceViewModel:
+    public final void setDiceCollection(java.util.Collection)
 androidx.core.provider.FontRequest:
     public void <init>(java.lang.String,java.lang.String,java.lang.String,int)
 kotlinx.coroutines.flow.FlowKt__TransformKt$filterIsInstance$$inlined$filter$1$1
@@ -5699,7 +5707,6 @@ androidx.core.graphics.TypefaceCompatApi28Impl:
     private static final int RESOLVE_BY_FONT_TABLE
     private static final java.lang.String DEFAULT_FAMILY
 kotlinx.coroutines.internal.LockFreeLinkedListNode$makeCondAddOp$1
-com.czluciusdev.dice_roller.R$menu
 androidx.recyclerview.widget.StaggeredGridLayoutManager$Span:
     public int findFirstVisibleItemPosition()
     public int findFirstCompletelyVisibleItemPosition()
@@ -5915,6 +5922,10 @@ androidx.customview.view.AbsSavedState:
 androidx.print.R
 kotlin.io.FilesKt__FileTreeWalkKt
 kotlin.sequences.DropSequence$iterator$1
+com.czluciusdev.diceroller.DataBinderMapperImpl:
+    public int getLayoutId(java.lang.String)
+    public java.lang.String convertBrIdToString(int)
+    private static final int LAYOUT_DICEFRAGMENT
 com.google.android.material.button.MaterialButton$IconGravity
 kotlinx.coroutines.selects.SelectBuilderImpl$onTimeout$$inlined$Runnable$1
 androidx.transition.Slide$6
@@ -6099,6 +6110,10 @@ androidx.core.transition.TransitionKt$doOnCancel$$inlined$addListener$1
 kotlin.io.AccessDeniedException
 kotlinx.coroutines.flow.FlowKt__ZipKt$combine$$inlined$unsafeFlow$4$lambda$2
 androidx.recyclerview.widget.SortedListAdapterCallback
+com.czluciusdev.diceroller.MainActivity:
+    public android.view.View _$_findCachedViewById(int)
+    public void _$_clearFindViewByIdCache()
+    private java.util.HashMap _$_findViewCache
 kotlinx.coroutines.channels.ChannelsKt__Channels_commonKt$first$3
 kotlinx.coroutines.flow.FlowKt__MergeKt$flatMapMerge$$inlined$map$1
 androidx.transition.Styleable$ArcMotion
@@ -6147,6 +6162,7 @@ androidx.appcompat.view.SupportMenuInflater$MenuState:
     private static final boolean defaultItemChecked
     private static final boolean defaultItemVisible
     private static final boolean defaultItemEnabled
+com.czluciusdev.diceroller.R
 kotlin.reflect.KParameter$DefaultImpls
 kotlin.collections.CollectionsKt
 androidx.annotation.ColorInt
@@ -6226,7 +6242,6 @@ androidx.core.text.PrecomputedTextCompat:
     public int getParagraphEnd(int)
     private final int[] mParagraphEnds
     private static final char LINE_FEED
-com.czluciusdev.dice_roller.DataBinderMapperImpl$InnerLayoutIdLookup
 kotlin.text.Regex$findAll$1
 kotlinx.coroutines.channels.LazyActorCoroutine
 androidx.appcompat.app.ActionBar$TabListener
@@ -6234,8 +6249,8 @@ kotlin.contracts.Returns
 com.google.android.material.internal.ParcelableSparseBooleanArray$1
 kotlinx.coroutines.SchedulerTaskKt
 kotlinx.coroutines.InternalCoroutinesApi
-androidx.media.MediaBrowserServiceCompatApi26$ServiceCompatProxy
 androidx.media.MediaBrowserServiceCompatApi26$ResultWrapper
+androidx.media.MediaBrowserServiceCompatApi26$ServiceCompatProxy
 com.google.android.material.snackbar.BaseTransientBottomBar$12
 com.google.android.material.button.MaterialButtonToggleGroup$CheckedStateTracker
 kotlinx.coroutines.flow.FlowKt__MigrationKt$combine$$inlined$unsafeFlow$3$lambda$2
@@ -6800,17 +6815,6 @@ android.support.v4.media.session.IMediaSession:
     public abstract void setShuffleMode(int)
     public abstract void sendCustomAction(java.lang.String,android.os.Bundle)
 kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$1
-com.czluciusdev.dice_roller.DiceFragment$OrientationListener:
-    public final kotlin.Pair getRotation0()
-    public final kotlin.Pair getRotation90()
-    public final kotlin.Pair getRotation180()
-    public final kotlin.Pair getRotation270()
-    public final int getRotationState0()
-    public final int getRotationState90()
-    public final int getRotationState180()
-    public final int getRotationState270()
-    public final android.content.Context getContext()
-    public final com.czluciusdev.dice_roller.databinding.DiceFragmentBinding getBinding()
 androidx.loader.app.LoaderManager$LoaderCallbacks
 kotlinx.coroutines.flow.internal.SafeCollector$collectContextSize$1
 androidx.annotation.InspectableProperty$EnumEntry
@@ -6987,8 +6991,6 @@ androidx.lifecycle.ViewModelKt
 androidx.navigation.fragment.ktx.R$string
 kotlinx.coroutines.flow.FlowKt__TransformKt$filterNot$$inlined$unsafeTransform$1$2$1
 kotlin.collections.MapWithDefaultImpl
-com.czluciusdev.dice_roller.DiceViewModel:
-    public final void setDiceCollection(java.util.Collection)
 kotlin.random.RandomKt:
     public static final kotlin.random.Random Random(int)
     public static final kotlin.random.Random Random(long)
@@ -7014,8 +7016,8 @@ com.google.android.material.internal.NavigationMenu
 kotlinx.coroutines.flow.FlowKt__TransformKt$filterIsInstance$$inlined$filter$1
 androidx.appcompat.R$interpolator
 kotlinx.coroutines.flow.internal.CombineKt$asFairChannel$1$invokeSuspend$$inlined$collect$1
-com.czluciusdev.dice_roller.R$attr
 kotlinx.coroutines.channels.ChannelsKt__Channels_commonKt$lastOrNull$1
+com.czluciusdev.diceroller.R$anim
 androidx.annotation.NonNull
 kotlinx.coroutines.flow.FlowKt__ZipKt$combine$$inlined$unsafeFlow$4$1
 androidx.drawerlayout.R$color
@@ -7169,13 +7171,13 @@ kotlin.coroutines.experimental.migration.ContinuationMigration
 androidx.recyclerview.widget.SortedList
 android.support.v4.media.session.PlaybackStateCompat$State
 kotlinx.coroutines.channels.ChannelsKt__Channels_commonKt$filterNotNull$1
+com.czluciusdev.diceroller.R$plurals
 kotlinx.coroutines.flow.FlowKt__MergeKt$flattenConcat$$inlined$unsafeFlow$1$lambda$1
 kotlin.io.ByteStreamsKt$iterator$1
 androidx.core.ktx.R$string
 kotlin.jvm.internal.Ref$LongRef
 kotlin.coroutines.jvm.internal.RunSuspend
 kotlinx.coroutines.flow.internal.FlowCoroutineKt$scopedFlow$$inlined$unsafeFlow$1$lambda$1
-com.czluciusdev.dice_roller.AboutFragmentKt
 androidx.appcompat.app.AlertDialog:
     protected void <init>(android.content.Context)
     protected void <init>(android.content.Context,boolean,android.content.DialogInterface$OnCancelListener)
@@ -7196,8 +7198,6 @@ androidx.appcompat.app.AlertDialog:
 androidx.localbroadcastmanager.content.LocalBroadcastManager$ReceiverRecord
 androidx.transition.R$layout
 kotlinx.coroutines.flow.FlowKt__TransformKt$filterIsInstance$$inlined$filter$1$2
-com.czluciusdev.dice_roller.DiceFragment:
-    public static final synthetic void access$setBinding$p(com.czluciusdev.dice_roller.DiceFragment,com.czluciusdev.dice_roller.databinding.DiceFragmentBinding)
 com.google.android.material.datepicker.CalendarItemStyle:
     int getLeftInset()
     int getRightInset()
@@ -7223,7 +7223,6 @@ kotlin.jvm.Strictfp
 kotlinx.coroutines.internal.ThreadState
 androidx.core.content.ContentResolverCompat
 kotlinx.coroutines.flow.FlowKt__MigrationKt$combine$$inlined$unsafeFlow$2
-com.czluciusdev.dice_roller.R$anim
 androidx.lifecycle.viewmodel.R
 androidx.appcompat.widget.ActivityChooserView$5
 androidx.fragment.ktx.R$drawable
@@ -7299,6 +7298,7 @@ androidx.navigation.fragment.DialogFragmentNavigator$Destination:
 kotlin.coroutines.experimental.migration.CoroutinesMigrationKt
 androidx.navigation.ui.ktx.R$bool
 kotlin.ParameterName
+com.czluciusdev.diceroller.R$attr
 androidx.navigation.ActionOnlyNavDirections
 kotlin.collections.CollectionsKt__IteratorsJVMKt$iterator$1
 androidx.core.view.ViewParentCompat:
@@ -7314,6 +7314,10 @@ androidx.core.view.ViewParentCompat:
     private static final java.lang.String TAG
     private static int[] sTempNestedScrollConsumed
 kotlin.contracts.ContractBuilder$DefaultImpls
+com.czluciusdev.diceroller.DiceImage:
+    public android.view.View _$_findCachedViewById(int)
+    public void _$_clearFindViewByIdCache()
+    private java.util.HashMap _$_findViewCache
 androidx.activity.R$styleable
 androidx.databinding.adapters.Converters
 kotlinx.coroutines.flow.FlowKt__MigrationKt$combine$$inlined$unsafeFlow$2$lambda$2
@@ -7344,8 +7348,6 @@ androidx.constraintlayout.solver.widgets.ConstraintTableLayout
 androidx.core.location.LocationManagerCompat
 androidx.appcompat.widget.PopupMenu
 androidx.appcompat.resources.R$integer
-com.czluciusdev.dice_roller.R$id:
-    private void <init>()
 com.google.android.material.textfield.TextInputLayout$BoxBackgroundMode
 kotlinx.coroutines.flow.FlowKt__MergeKt$map$$inlined$unsafeTransform$1
 androidx.appcompat.view.menu.CascadingMenuPopup:
@@ -8035,7 +8037,6 @@ androidx.core.view.ViewGroupCompat:
     public static int getNestedScrollAxes(android.view.ViewGroup)
     public static final int LAYOUT_MODE_CLIP_BOUNDS
     public static final int LAYOUT_MODE_OPTICAL_BOUNDS
-com.czluciusdev.dice_roller.R$styleable
 androidx.core.app.NotificationCompat$CarExtender
 kotlinx.coroutines.EventLoopImplBase$DelayedResumeTask
 androidx.asynclayoutinflater.R$integer
@@ -8121,11 +8122,11 @@ androidx.recyclerview.widget.RecyclerView$SmoothScroller$Action:
     public void setInterpolator(android.view.animation.Interpolator)
     public static final int UNDEFINED_DURATION
 androidx.databinding.ObservableDouble$1
+com.czluciusdev.diceroller.BuildConfig
 kotlinx.coroutines.flow.FlowKt__ErrorsKt$catch$$inlined$unsafeFlow$1
 kotlin.text.MatchNamedGroupCollection
 androidx.databinding.library.R$string
 androidx.core.animation.AnimatorKt
-com.czluciusdev.dice_roller.R
 kotlin.jvm.functions.Function15
 android.support.v4.media.MediaBrowserCompatApi21$MediaItem
 androidx.lifecycle.extensions.R$anim
@@ -8150,6 +8151,7 @@ androidx.lifecycle.MethodCallsLogger:
     public boolean approveCall(java.lang.String,int)
 androidx.appcompat.widget.PopupMenu$1
 androidx.legacy.coreui.R
+com.czluciusdev.diceroller.R$integer
 kotlin.collections.unsigned.UArraysKt___UArraysKt$withIndex$3
 androidx.annotation.TransitionRes
 androidx.appcompat.widget.ListPopupWindow:
@@ -8220,6 +8222,7 @@ androidx.lifecycle.LifecycleCoroutineScope$launchWhenStarted$1
 androidx.lifecycle.extensions.R$id
 kotlinx.coroutines.internal.ThreadLocalElement
 kotlin.io.TerminateException
+com.czluciusdev.diceroller.R$mipmap
 kotlin.comparisons.UComparisonsKt___UComparisonsKt
 android.support.v4.media.MediaBrowserCompatApi21$SubscriptionCallback
 androidx.annotation.PluralsRes
@@ -8283,6 +8286,7 @@ androidx.vectordrawable.graphics.drawable.AnimationUtilsCompat:
     private void <init>()
 kotlinx.coroutines.channels.ChannelsKt__Channels_commonKt$maxBy$1
 androidx.appcompat.widget.ActivityChooserModel$DefaultSorter
+com.czluciusdev.diceroller.DataBinderMapperImpl$InnerLayoutIdLookup
 kotlinx.coroutines.flow.FlowKt__BuildersKt$flowViaChannel$1
 kotlin.jvm.internal.MutablePropertyReference0Impl
 kotlinx.coroutines.flow.FlowKt__ZipKt$combineTransform$1
@@ -8294,7 +8298,6 @@ kotlin.text.Regex$Companion
 androidx.core.widget.TintableCompoundButton:
     public abstract android.graphics.PorterDuff$Mode getSupportButtonTintMode()
 kotlin.jvm.internal.PropertyReference0
-com.czluciusdev.dice_roller.R$interpolator
 kotlin.collections.ReversedListReadOnly
 com.google.android.material.snackbar.SnackbarManager:
     private void showNextSnackbarLocked()
@@ -8544,6 +8547,10 @@ kotlinx.coroutines.internal.LockFreeLinkedListNode
 kotlin.text.StringsKt__StringsKt$iterator$1
 android.support.v4.media.MediaBrowserCompat$MediaBrowserImplBase$1
 kotlin.StandardKt
+com.czluciusdev.diceroller.AboutFragment:
+    private final void launchWebPage()
+    public static final synthetic void access$launchWebPage(com.czluciusdev.diceroller.AboutFragment)
+    public android.view.View _$_findCachedViewById(int)
 androidx.navigation.ui.BottomNavigationViewKt
 androidx.core.app.NotificationCompat$GroupAlertBehavior
 androidx.viewpager2.adapter.FragmentStateAdapter$2:
@@ -8606,8 +8613,6 @@ androidx.appcompat.widget.ScrollingTabContainerView:
     private static final int FADE_DURATION
 androidx.navigation.R$layout
 androidx.lifecycle.ViewModelStores
-com.czluciusdev.dice_roller.AboutFragment$Companion:
-    public final com.czluciusdev.dice_roller.AboutFragment newInstance(java.lang.String,java.lang.String)
 androidx.drawerlayout.widget.DrawerLayout$SimpleDrawerListener
 androidx.core.database.DatabaseUtilsCompat
 com.google.android.material.snackbar.BaseTransientBottomBar$7
@@ -8635,7 +8640,6 @@ kotlinx.coroutines.flow.FlowKt__MergeKt$flatMapConcat$$inlined$map$1$2
 kotlinx.coroutines.DispatchedContinuation
 kotlin.SynchronizedLazyImpl:
     private final java.lang.Object writeReplace()
-com.czluciusdev.dice_roller.R$color
 androidx.appcompat.view.menu.ListMenuPresenter:
     int getItemIndexOffset()
     public void setItemIndexOffset(int)
@@ -8727,6 +8731,7 @@ kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask
 kotlin.UInt$Companion
 com.google.android.material.R$plurals
 androidx.transition.TransitionInflater
+com.czluciusdev.diceroller.R$layout
 kotlin.jvm.functions.Function3
 com.google.android.material.R$string:
     private void <init>()
@@ -8882,7 +8887,7 @@ androidx.databinding.adapters.SearchViewBindingAdapter$OnSuggestionSelect
 kotlinx.android.parcel.IgnoredOnParcel
 kotlin.internal.Exact
 androidx.constraintlayout.solver.SolverVariable$1
-com.czluciusdev.dice_roller.R$layout
+com.czluciusdev.diceroller.R$dimen
 kotlinx.coroutines.flow.FlowKt__EmittersKt
 kotlin.jvm.internal.TypeIntrinsics
 androidx.navigation.ActivityNavigatorExtrasKt
@@ -9047,10 +9052,6 @@ kotlinx.coroutines.flow.FlowKt__TransformKt$unsafeTransform$$inlined$unsafeFlow$
 androidx.core.text.BidiFormatter$DirectionalityEstimator:
     private static final int DIR_TYPE_CACHE_SIZE
 org.jetbrains.annotations.TestOnly
-com.czluciusdev.dice_roller.DiceImage:
-    public android.view.View _$_findCachedViewById(int)
-    public void _$_clearFindViewByIdCache()
-    private java.util.HashMap _$_findViewCache
 kotlin.collections.AbstractMap$keys$1
 kotlinx.coroutines.channels.ChannelsKt__Channels_commonKt$elementAtOrNull$1
 kotlin.jvm.internal.MutablePropertyReference2Impl
@@ -9079,7 +9080,6 @@ kotlinx.coroutines.channels.ChannelsKt__Channels_commonKt$distinctBy$1
 androidx.appcompat.app.ToolbarActionBar$MenuBuilderCallback
 kotlinx.coroutines.flow.FlowKt__LimitKt$take$$inlined$unsafeFlow$1$lambda$1$1
 com.google.android.material.datepicker.RangeDateSelector$1
-com.czluciusdev.dice_roller.DataBinderMapperImpl$InnerBrLookup
 com.google.android.material.internal.NavigationMenuPresenter$NavigationMenuItem
 kotlin.io.ByteStreamsKt
 kotlin.comparisons.UComparisonsKt
@@ -9376,6 +9376,7 @@ androidx.databinding.ObservableArrayMap
 androidx.databinding.adapters.ObservableListAdapter$1
 androidx.viewpager2.widget.CompositePageTransformer
 androidx.core.content.res.FontResourcesParserCompat$FetchStrategy
+com.czluciusdev.diceroller.R$navigation
 kotlin.collections.AbstractList$IteratorImpl
 androidx.core.view.GestureDetectorCompat$GestureDetectorCompatImpl
 kotlin.comparisons.NaturalOrderComparator
@@ -9410,10 +9411,6 @@ kotlin.jvm.internal.ReflectionFactory:
 kotlinx.coroutines.flow.internal.CombineKt$zipImpl$$inlined$unsafeFlow$1
 kotlinx.coroutines.flow.FlowKt__TransformKt$unsafeTransform$$inlined$unsafeFlow$3$1
 kotlinx.coroutines.CoroutineExceptionHandlerKt$CoroutineExceptionHandler$1
-com.czluciusdev.dice_roller.MainActivity:
-    public android.view.View _$_findCachedViewById(int)
-    public void _$_clearFindViewByIdCache()
-    private java.util.HashMap _$_findViewCache
 androidx.constraintlayout.solver.widgets.ConstraintAnchor:
     private boolean isConnectionToMe(androidx.constraintlayout.solver.widgets.ConstraintWidget,java.util.HashSet)
     public androidx.constraintlayout.solver.widgets.ConstraintAnchor$ConnectionType getConnectionType()
@@ -9623,6 +9620,7 @@ androidx.lifecycle.LiveData:
 androidx.annotation.CallSuper
 androidx.vectordrawable.R$integer
 androidx.navigation.common.R$color
+com.czluciusdev.diceroller.BR
 kotlinx.coroutines.CoroutineScopeKt
 androidx.loader.R$layout
 com.google.android.material.datepicker.SmoothCalendarLayoutManager:
@@ -9818,6 +9816,7 @@ kotlinx.coroutines.flow.FlowKt__TransformKt$map$$inlined$unsafeTransform$1$1
 androidx.navigation.common.ktx.R$drawable
 androidx.appcompat.widget.ListPopupWindow$1
 androidx.asynclayoutinflater.view.AsyncLayoutInflater$OnInflateFinishedListener
+com.czluciusdev.diceroller.R$xml
 kotlinx.coroutines.channels.ChannelsKt__Channels_commonKt$mapIndexedTo$1
 androidx.databinding.library.baseAdapters.R
 kotlinx.coroutines.ThreadPoolDispatcher$executor$1
@@ -9898,6 +9897,7 @@ androidx.legacy.app.ActionBarDrawerToggle
 androidx.recyclerview.R$styleable:
     private void <init>()
 kotlinx.coroutines.EventLoop_commonKt
+com.czluciusdev.diceroller.R$bool
 kotlinx.coroutines.scheduling.TaskImpl
 androidx.media.AudioAttributesImplApi21:
     void <init>(android.media.AudioAttributes)
@@ -9916,7 +9916,6 @@ androidx.media.AudioAttributesImplApi21:
     static java.lang.reflect.Method sAudioAttributesToLegacyStreamType
 kotlinx.coroutines.channels.AbstractChannel$ReceiveElement
 kotlinx.coroutines.flow.FlowKt__LimitKt$dropWhile$$inlined$unsafeFlow$1
-com.czluciusdev.dice_roller.R$style
 androidx.annotation.StringRes
 androidx.asynclayoutinflater.R
 kotlin.reflect.KVisibility
@@ -10198,7 +10197,6 @@ androidx.appcompat.app.AppCompatDelegateImpl$PanelFeatureState:
     android.os.Bundle frozenMenuState
 androidx.core.app.DialogCompat
 androidx.navigation.fragment.FragmentNavigatorDestinationBuilderKt
-com.czluciusdev.dice_roller.BuildConfig
 androidx.core.view.MenuItemCompat$1
 androidx.media.R$color
 kotlinx.coroutines.flow.FlowKt__DistinctKt$distinctUntilChangedBy$$inlined$unsafeFlow$2$lambda$1
@@ -10350,8 +10348,8 @@ kotlin.collections.ArraysKt___ArraysKt$asIterable$$inlined$Iterable$4
 androidx.databinding.ObservableChar$1
 androidx.transition.AnimatorUtils:
     private void <init>()
-kotlin.coroutines.experimental.SafeContinuation
 kotlin.coroutines.experimental.CombinedContext$toString$1
+kotlin.coroutines.experimental.SafeContinuation
 androidx.constraintlayout.widget.R$styleable:
     private void <init>()
 androidx.recyclerview.widget.RecyclerView$LayoutManager:
@@ -10990,6 +10988,7 @@ android.support.v4.media.session.MediaControllerCompat
 kotlinx.coroutines.flow.FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1
 androidx.navigation.NavOptionsDsl
 kotlin.sequences.TransformingSequence$iterator$1
+com.czluciusdev.diceroller.DataBinderMapperImpl$InnerBrLookup
 com.google.android.material.radiobutton.MaterialRadioButton:
     public void <init>(android.content.Context)
     public boolean isUseMaterialThemeColors()
@@ -11056,6 +11055,7 @@ kotlin.system.TimingKt
 androidx.recyclerview.widget.ItemTouchHelper
 androidx.activity.ktx.R
 androidx.viewpager2.widget.ViewPager2$PageTransformer
+com.czluciusdev.diceroller.R$menu
 com.google.android.material.tabs.TabLayout$1
 android.support.v4.media.session.MediaSessionCompat$3
 kotlinx.coroutines.CoroutineScope
@@ -11099,6 +11099,7 @@ androidx.appcompat.widget.AppCompatDrawableManager:
     private static final boolean DEBUG
 androidx.transition.TransitionUtils$MatrixEvaluator
 androidx.recyclerview.widget.DividerItemDecoration
+com.czluciusdev.diceroller.AboutFragment$onCreateView$1
 androidx.swiperefreshlayout.widget.CircularProgressDrawable
 kotlinx.coroutines.flow.FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$8$1
 com.google.android.material.tabs.TabLayout$TabGravity
@@ -11426,8 +11427,6 @@ androidx.navigation.ktx.R$layout
 androidx.appcompat.widget.ActivityChooserModel$PersistHistoryAsyncTask
 kotlinx.coroutines.flow.FlowKt__LimitKt$takeWhile$$inlined$unsafeFlow$1$lambda$1$1
 android.support.v4.media.MediaBrowserCompat$MediaBrowserImplBase$3
-com.czluciusdev.dice_roller.databinding.DiceFragmentBindingImpl:
-    public boolean setVariable(int,java.lang.Object)
 androidx.loader.content.CursorLoader
 androidx.core.app.NavUtils:
     public static void navigateUpFromSameTask(android.app.Activity)
@@ -11908,10 +11907,6 @@ androidx.core.view.ViewKt$doOnAttach$1
 androidx.appcompat.widget.AppCompatBackgroundHelper:
     public final boolean shouldApplyFrameworkTintUsingColorFilter()
     public final boolean applyFrameworkTintUsingColorFilter(android.graphics.drawable.Drawable)
-com.czluciusdev.dice_roller.databinding.DiceFragmentBinding:
-    public final android.widget.LinearLayout diceNumHolder
-    public final android.widget.ImageView imageView
-    public final android.widget.TextView textView
 kotlin.jvm.internal.PropertyReference1Impl:
     private void constructor$kotlin$jvm$internal$PropertyReference1()
     private kotlin.reflect.KCallable computeReflected$kotlin$jvm$internal$PropertyReference1()
@@ -11942,6 +11937,8 @@ com.google.android.material.bottomappbar.BottomAppBar$Behavior:
     public boolean onStartNestedScroll(androidx.coordinatorlayout.widget.CoordinatorLayout,com.google.android.material.bottomappbar.BottomAppBar,android.view.View,android.view.View,int,int)
 androidx.cardview.widget.CardViewApi21Impl:
     public void updatePadding(androidx.cardview.widget.CardViewDelegate)
+com.czluciusdev.diceroller.DiceFragment$$special$$inlined$viewModels$2:
+    public final androidx.lifecycle.ViewModelStore invoke()
 com.google.android.material.chip.ChipDrawable:
     public static com.google.android.material.chip.ChipDrawable createFromAttributes(android.content.Context,android.util.AttributeSet,int,int)
     public static boolean isStateful(com.google.android.material.resources.TextAppearance)
@@ -12380,6 +12377,14 @@ com.google.android.material.internal.FlowLayout:
     public static int getMeasuredDimension(int,int,int)
 com.google.android.material.bottomsheet.BottomSheetDialog$3:
     public final synthetic com.google.android.material.bottomsheet.BottomSheetDialog this$0
+com.czluciusdev.diceroller.databinding.DiceFragmentBindingImpl:
+    public void <init>(androidx.databinding.DataBindingComponent,android.view.View,java.lang.Object[])
+    public void invalidateAll()
+    public boolean hasPendingBindings()
+    public boolean onFieldChange(int,java.lang.Object,int)
+    public void executeBindings()
+    public final boolean onChangeVmDiceNumberString(int)
+    public static final androidx.databinding.ViewDataBinding$IncludedLayouts sIncludes
 com.google.android.material.shape.ShapePath$ShadowCompatOperation:
     public final void draw(com.google.android.material.shadow.ShadowRenderer,int,android.graphics.Canvas)
 androidx.appcompat.view.SupportMenuInflater:
@@ -12425,8 +12430,6 @@ androidx.transition.ViewUtilsApi22:
     public static void <clinit>()
 androidx.appcompat.graphics.drawable.StateListDrawable:
     public int[] extractStateSet(android.util.AttributeSet)
-com.czluciusdev.dice_roller.DiceFragment$$special$$inlined$viewModels$1:
-    public final androidx.fragment.app.Fragment invoke()
 com.google.android.material.circularreveal.CircularRevealWidget$CircularRevealEvaluator:
     public com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo evaluate(float,com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo,com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo)
 androidx.core.app.ActivityCompat$PermissionCompatDelegate
@@ -12686,13 +12689,6 @@ androidx.constraintlayout.solver.widgets.Snapshot$Connection:
     public void applyTo(androidx.constraintlayout.solver.widgets.ConstraintWidget)
 com.google.android.material.resources.CancelableFontCallback:
     public void cancel()
-com.czluciusdev.dice_roller.AboutFragment:
-    public static void <clinit>()
-    public void _$_clearFindViewByIdCache()
-    public java.lang.String param1
-    public java.lang.String param2
-    public java.util.HashMap _$_findViewCache
-    public static final com.czluciusdev.dice_roller.AboutFragment$Companion Companion
 androidx.collection.MapCollections$MapIterator:
     public java.util.Map$Entry next()
 android.support.v4.media.MediaDescriptionCompatApi21$Builder:
@@ -13134,6 +13130,10 @@ com.google.android.material.chip.ChipGroup:
     public static synthetic void access$600(com.google.android.material.chip.ChipGroup,int,boolean)
     public static synthetic com.google.android.material.chip.ChipGroup$CheckedStateTracker access$800(com.google.android.material.chip.ChipGroup)
     public void clearCheck()
+com.czluciusdev.diceroller.databinding.DiceFragmentBinding:
+    public final android.widget.LinearLayout diceNumHolder
+    public final android.widget.ImageView imageView
+    public final android.widget.TextView textView
 androidx.recyclerview.widget.LinearSmoothScroller:
     public void onStart()
     public void onSeekTargetStep(int,int,androidx.recyclerview.widget.RecyclerView$State,androidx.recyclerview.widget.RecyclerView$SmoothScroller$Action)
@@ -13236,6 +13236,7 @@ androidx.loader.app.LoaderManagerImpl$LoaderObserver:
     public boolean hasDeliveredData()
     public void reset()
     public void dump(java.lang.String,java.io.PrintWriter)
+com.czluciusdev.diceroller.UtilKt
 androidx.core.graphics.TypefaceCompatBaseImpl:
     public static java.lang.Object findBestFont(java.lang.Object[],int,androidx.core.graphics.TypefaceCompatBaseImpl$StyleExtractor)
     public androidx.core.content.res.FontResourcesParserCompat$FontFamilyFilesResourceEntry getFontFamily(android.graphics.Typeface)
@@ -13266,6 +13267,19 @@ androidx.constraintlayout.solver.widgets.Optimizer:
     public static void checkMatchParent(androidx.constraintlayout.solver.widgets.ConstraintWidgetContainer,androidx.constraintlayout.solver.LinearSystem,androidx.constraintlayout.solver.widgets.ConstraintWidget)
     public static void analyze(int,androidx.constraintlayout.solver.widgets.ConstraintWidget)
     public static boolean applyChainOptimized(androidx.constraintlayout.solver.widgets.ConstraintWidgetContainer,androidx.constraintlayout.solver.LinearSystem,int,int,androidx.constraintlayout.solver.widgets.ChainHead)
+com.czluciusdev.diceroller.DiceFragment:
+    public static final synthetic void access$removeAll(com.czluciusdev.diceroller.DiceFragment)
+    public static final synthetic void access$rollDice(com.czluciusdev.diceroller.DiceFragment)
+    public static final synthetic com.czluciusdev.diceroller.databinding.DiceFragmentBinding access$getBinding$p(com.czluciusdev.diceroller.DiceFragment)
+    public android.view.View _$_findCachedViewById(int)
+    public void _$_clearFindViewByIdCache()
+    public final void removeAll()
+    public final void infoNav()
+    public final void removeDice(com.czluciusdev.diceroller.DiceImage)
+    public final void renderDice(float,float,com.czluciusdev.diceroller.DiceImage,int)
+    public final void addDice()
+    public final void rollDice()
+    public final void restoreDice()
 androidx.fragment.app.FragmentContainer:
     public androidx.fragment.app.Fragment instantiate(android.content.Context,java.lang.String,android.os.Bundle)
 android.support.v4.os.ResultReceiver:
@@ -13284,8 +13298,6 @@ androidx.appcompat.widget.ActionBarContextView:
     public void closeMode()
     public boolean showOverflowMenu()
     public boolean isTitleOptional()
-com.czluciusdev.dice_roller.DiceFragment$$special$$inlined$viewModels$2:
-    public final androidx.lifecycle.ViewModelStore invoke()
 com.google.android.material.circularreveal.CircularRevealWidget$CircularRevealProperty:
     public com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo get(com.google.android.material.circularreveal.CircularRevealWidget)
     public void set(com.google.android.material.circularreveal.CircularRevealWidget,com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo)
@@ -13833,7 +13845,6 @@ androidx.navigation.NavType$8:
     public void put(android.os.Bundle,java.lang.String,java.lang.Boolean)
     public java.lang.Boolean get(android.os.Bundle,java.lang.String)
     public java.lang.Boolean parseValue(java.lang.String)
-com.czluciusdev.dice_roller.UtilKt
 com.google.android.material.textfield.PasswordToggleEndIconDelegate:
     public static synthetic android.text.TextWatcher access$100(com.google.android.material.textfield.PasswordToggleEndIconDelegate)
     public final boolean hasPasswordTransformation()
@@ -13911,8 +13922,6 @@ androidx.navigation.NavType$ParcelableArrayType:
     public void put(android.os.Bundle,java.lang.String,android.os.Parcelable[])
     public android.os.Parcelable[] get(android.os.Bundle,java.lang.String)
     public android.os.Parcelable[] parseValue()
-com.czluciusdev.dice_roller.DiceViewModel$diceNumberString$1:
-    public final java.lang.String apply(java.lang.Integer)
 androidx.fragment.app.FragmentTransitionImpl$3:
     public final synthetic androidx.fragment.app.FragmentTransitionImpl this$0
 androidx.appcompat.view.menu.MenuItemImpl$1:
@@ -13921,6 +13930,8 @@ androidx.transition.ChangeBounds$9:
     public final synthetic androidx.transition.ChangeBounds this$0
 androidx.core.view.ViewPropertyAnimatorUpdateListener:
     public abstract void onAnimationUpdate(android.view.View)
+com.czluciusdev.diceroller.DiceFragment$OrientationListener:
+    public final android.content.Context context
 androidx.customview.widget.ViewDragHelper$Callback:
     public void onEdgeTouched()
     public boolean onEdgeLock()
@@ -14121,8 +14132,6 @@ androidx.customview.widget.ExploreByTouchHelper:
     public final boolean performActionForChild(int,int,android.os.Bundle)
     public final boolean isVisibleToUser(android.graphics.Rect)
     public final boolean requestAccessibilityFocus(int)
-com.czluciusdev.dice_roller.DataBinderMapperImpl:
-    public androidx.databinding.ViewDataBinding getDataBinder(androidx.databinding.DataBindingComponent,android.view.View[],int)
 androidx.appcompat.widget.AppCompatCompoundButtonHelper:
     public void setSupportButtonTintList(android.content.res.ColorStateList)
     public android.content.res.ColorStateList getSupportButtonTintList()
@@ -14328,6 +14337,8 @@ com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton$Ex
     public com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton$OnChangedCallback internalAutoHideCallback
     public com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton$OnChangedCallback internalAutoShrinkCallback
 androidx.constraintlayout.widget.ConstraintSet$1
+com.czluciusdev.diceroller.DiceFragment$$special$$inlined$viewModels$1:
+    public final androidx.fragment.app.Fragment invoke()
 androidx.core.app.AppOpsManagerCompat
 androidx.recyclerview.widget.LinearLayoutManager:
     public int getOrientation()
@@ -14518,6 +14529,10 @@ com.google.android.material.bottomappbar.BottomAppBar$AnimationListener
 android.support.v4.media.MediaMetadataCompat$1:
     public android.support.v4.media.MediaMetadataCompat createFromParcel(android.os.Parcel)
     public android.support.v4.media.MediaMetadataCompat[] newArray(int)
+com.czluciusdev.diceroller.DiceViewModel:
+    public final androidx.lifecycle.MutableLiveData getTotalDiceNumber()
+    public final androidx.lifecycle.LiveData getDiceNumberString()
+    public final java.util.Collection getDiceCollection()
 androidx.core.provider.FontRequest:
     public java.lang.String getProviderAuthority()
     public java.lang.String getProviderPackage()
@@ -14562,6 +14577,8 @@ androidx.recyclerview.widget.ChildHelper:
     public void hide(android.view.View)
     public void unhide(android.view.View)
     public boolean removeViewIfHidden(android.view.View)
+com.czluciusdev.diceroller.DiceViewModel$diceNumberString$1:
+    public final java.lang.String apply(java.lang.Integer)
 android.support.v4.media.session.PlaybackStateCompatApi21$CustomAction
 androidx.vectordrawable.graphics.drawable.AnimatorInflaterCompat$PathDataEvaluator:
     public androidx.core.graphics.PathParser$PathDataNode[] evaluate(float,androidx.core.graphics.PathParser$PathDataNode[],androidx.core.graphics.PathParser$PathDataNode[])
@@ -14604,6 +14621,8 @@ androidx.appcompat.widget.TintContextWrapper:
 androidx.customview.view.AbsSavedState:
     public void <init>()
     public final android.os.Parcelable getSuperState()
+com.czluciusdev.diceroller.DataBinderMapperImpl:
+    public androidx.databinding.ViewDataBinding getDataBinder(androidx.databinding.DataBindingComponent,android.view.View[],int)
 androidx.coordinatorlayout.widget.CoordinatorLayout$SavedState$1:
     public androidx.coordinatorlayout.widget.CoordinatorLayout$SavedState createFromParcel(android.os.Parcel,java.lang.ClassLoader)
     public androidx.coordinatorlayout.widget.CoordinatorLayout$SavedState createFromParcel(android.os.Parcel)
@@ -14969,8 +14988,6 @@ androidx.appcompat.widget.AppCompatImageHelper:
     public androidx.appcompat.widget.TintInfo mInternalImageTint
 android.support.v4.media.session.IMediaSession:
     public abstract void registerCallbackListener(android.support.v4.media.session.IMediaControllerCallback)
-com.czluciusdev.dice_roller.DiceFragment$OrientationListener:
-    public final android.content.Context context
 androidx.fragment.app.FragmentController:
     public static androidx.fragment.app.FragmentController createController(androidx.fragment.app.FragmentHostCallback)
     public androidx.fragment.app.FragmentManager getSupportFragmentManager()
@@ -15045,10 +15062,6 @@ com.google.android.material.ripple.RippleDrawableCompat:
     public void <init>(com.google.android.material.ripple.RippleDrawableCompat$RippleDrawableCompatState)
     public com.google.android.material.ripple.RippleDrawableCompat mutate()
 androidx.core.text.BidiFormatter$Builder
-com.czluciusdev.dice_roller.DiceViewModel:
-    public final androidx.lifecycle.MutableLiveData getTotalDiceNumber()
-    public final androidx.lifecycle.LiveData getDiceNumberString()
-    public final java.util.Collection getDiceCollection()
 kotlin.random.RandomKt
 kotlin.jvm.internal.PropertyReference1
 androidx.arch.core.executor.DefaultTaskExecutor$1:
@@ -15206,17 +15219,6 @@ androidx.databinding.CallbackRegistry$NotifierCallback:
     public abstract void onNotifyCallback(java.lang.Object,java.lang.Object,int,java.lang.Object)
 androidx.appcompat.app.AlertDialog:
     public android.widget.ListView getListView()
-com.czluciusdev.dice_roller.DiceFragment:
-    public static final synthetic void access$rollDice(com.czluciusdev.dice_roller.DiceFragment)
-    public static final synthetic com.czluciusdev.dice_roller.databinding.DiceFragmentBinding access$getBinding$p(com.czluciusdev.dice_roller.DiceFragment)
-    public android.view.View _$_findCachedViewById(int)
-    public void _$_clearFindViewByIdCache()
-    public final void infoNav()
-    public final void removeDice(com.czluciusdev.dice_roller.DiceImage)
-    public final void renderDice(float,float,com.czluciusdev.dice_roller.DiceImage,int)
-    public final void addDice()
-    public final void rollDice()
-    public final void restoreDice()
 com.google.android.material.datepicker.CalendarItemStyle:
     public int getTopInset()
     public int getBottomInset()
@@ -15831,6 +15833,9 @@ androidx.core.text.PrecomputedTextCompat$Params:
     public int getBreakStrategy()
     public int getHyphenationFrequency()
     public final android.text.PrecomputedText$Params mWrapped
+com.czluciusdev.diceroller.AboutFragment:
+    public void _$_clearFindViewByIdCache()
+    public java.util.HashMap _$_findViewCache
 androidx.viewpager2.adapter.FragmentStateAdapter$2:
     public final synthetic androidx.viewpager2.adapter.FragmentViewHolder val$holder
     public final synthetic androidx.viewpager2.adapter.FragmentStateAdapter this$0
@@ -15868,7 +15873,6 @@ androidx.appcompat.widget.ScrollingTabContainerView:
     public androidx.appcompat.widget.LinearLayoutCompat mTabLayout
     public android.widget.Spinner mTabSpinner
     public static final android.view.animation.Interpolator sAlphaInterpolator
-com.czluciusdev.dice_roller.AboutFragment$Companion
 androidx.fragment.app.FragmentTransitionCompat21$1:
     public final synthetic androidx.fragment.app.FragmentTransitionCompat21 this$0
 com.google.android.material.appbar.ViewUtilsLollipop
@@ -17012,14 +17016,6 @@ androidx.recyclerview.widget.RecyclerView$SavedState$1:
     public androidx.recyclerview.widget.RecyclerView$SavedState createFromParcel(android.os.Parcel,java.lang.ClassLoader)
     public androidx.recyclerview.widget.RecyclerView$SavedState createFromParcel(android.os.Parcel)
     public androidx.recyclerview.widget.RecyclerView$SavedState[] newArray(int)
-com.czluciusdev.dice_roller.databinding.DiceFragmentBindingImpl:
-    public void <init>(androidx.databinding.DataBindingComponent,android.view.View,java.lang.Object[])
-    public void invalidateAll()
-    public boolean hasPendingBindings()
-    public boolean onFieldChange(int,java.lang.Object,int)
-    public void executeBindings()
-    public final boolean onChangeVmDiceNumberString(int)
-    public static final androidx.databinding.ViewDataBinding$IncludedLayouts sIncludes
 androidx.core.app.NavUtils
 androidx.core.graphics.ColorUtils:
     public static int compositeAlpha(int,int)

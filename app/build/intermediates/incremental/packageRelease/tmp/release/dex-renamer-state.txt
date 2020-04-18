@@ -1,4 +1,4 @@
-#Fri Mar 27 20:57:49 MYT 2020
+#Tue Apr 07 16:14:15 MYT 2020
 base.0=/home/luciuscheezihan/code/android/MyApp/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
