@@ -1,8 +1,8 @@
+UPDATED ON 20/10/2020
 
-Lucius Chee Zihan built the Dice Roller app as an Open Source app. This SERVICE is provided by Lucius Chee Zihan at no cost and is intended for use as is.
+Lucius C. built the Dice Roller app as an Open Source app. This SERVICE is provided by Lucius C. at no cost and is intended for use as is.
 
 This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
-
 
 
 Information Collection and Use
@@ -19,7 +19,7 @@ I may employ third-party companies and individuals due to the following reasons:
     To assist us in analyzing how our Service is used.
 
 I want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
-An example of such a service is the app store that you have downloaded this app from.
+An example of such a service is the app store that you have downloaded this app from(e.g Aptoide).
 
 
 Security
@@ -35,8 +35,4 @@ Changes to This Privacy Policy
 
 I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page.
 
-This policy is effective as of 2020-04-24
-
-Contact Us
-
-If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at czlucius.dev@protonmail.com.
+This policy is effective as of 2020-10-20
